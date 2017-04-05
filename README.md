@@ -1,7 +1,7 @@
 # tutor-dex
 WHS TutorDex Final Project
 
-<p>Project Manager: Not Assigned<br>
+<p>Project Manager: Angela Geronimo<br>
 Developers: Kyle Lingat, Cornelious Mooring, Angela Geronimo, Gwen Raquepo</p>
 
 <h3>Final Project Breakdown</h3>
