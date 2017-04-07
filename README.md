@@ -82,6 +82,7 @@ Developers: Kyle Lingat, Cornelious Mooring, Angela Geronimo, Gwen Raquepo</p>
 <ul>
   <li>Follow the design views found under the Assets folder.</li>
   <li>If the view is not the home (first page/index.html), create a new file in the root folder with the view name.</li>
+  <li>Create interactive buttons (links) to navigate through views</li>
 </ul>
 
 <b>Adding CSS</b>
@@ -97,9 +98,19 @@ Developers: Kyle Lingat, Cornelious Mooring, Angela Geronimo, Gwen Raquepo</p>
   <li>Start each task with a block comment and include your pseudo code.</li>
   <li>Create array objects of mock data per page and store them in a variable</li>
   <li>Dynamically display mock data per view.</li>
-  <li>Create interactive buttons for the top navigation</li>
   <li>Sort - display data based on a keyword. Make the first items data show as default.</li>
 </ul>
 
 <h2>Task Breakdown - part 2</h2>
-<ul></ul>
+<ul>
+  <li>Create class for remove animation</li>
+  <li>When an item is down voted more than a certain number, add class to 'remove' item</li>
+  <li>When answer is given positive credit, change the style of the points container.</li>
+</ul>
+
+<h2>Stretch Goal</h2>
+<ul>
+  <!-- <li>Retreive subject from url and display data accordingly</li> -->
+  <li>Allow user to submit answer, store in local storage and display answer.</li>
+  <li>Make actual forms but do not send data.</li>
+</ul>
