@@ -1,0 +1,19 @@
+header {
+	font-family:;
+	margin-bottom:2%;
+}
+
+header, #que, a, .name,{
+	color:lightgreen;
+}
+
+.answers{
+	height:auto;
+	width: 300px;
+	background-color:grey;
+}
+
+.related-things{
+	float: left;
+}
+
