@@ -1,0 +1,28 @@
+Tutor Dex Project Log
+
+Create a log.txt in the root folder
+Update log with daily reports 
+Add any reports when work is done outside of class.
+FORMAT for in class reports:
+Date
+Scrum meeting format:
+assigned tasks | name:task
+=====================================
+FORMAT for out of class reports:
+Date | location | members who attended
+Scrum meeting format
+
+=====================================
+
+Log 1 (4/5/17)
+The goal was to add the basic files for the project (html, css, js) and start/work on a page in partners
+Kyle and Corn: Work on home page
+Angela and Gwen: Work on question/answer page
+Corn: Create html folder and index file
+Kyle: Create javascript folder and app file
+Gwen: Create css folder and styles file
+Angela: Oversee tasks and accept pull requests
+
+
+
+Log 2 (2/7/17)
