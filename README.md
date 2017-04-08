@@ -91,6 +91,19 @@ Developers: Kyle Lingat, Cornelious Mooring, Angela Geronimo, Gwen Raquepo</p>
   <li>Assign classes to reusable styles.</li>
   <li>Create a block comment if styles are for a specific view or user interaction, otherwise it's considered a general style.</li>
 </ul>
+<ul>
+  <li><b>Colors</b><ul>
+    <li>Dark Gray: #4A4A4A</li>
+    <li>Light Gray: #EDEDED</li>
+    <li>Green: #8AE8A1</li>
+    <li>Body Font: #838383</li>
+  </ul></li>
+  <li><b>Fonts</b><ul>
+    <li>Logo <a href="https://fonts.google.com/specimen/Exo">Exo Semibold</a></li>
+    <li>Headings <a href="https://fonts.google.com/specimen/Raleway">Raleway Semibold</a></li>
+    <li>Body <a href="https://fonts.google.com/specimen/Bitter">Bitter</a></li>
+  </ul></li>
+</ul>
 
 <b>User Interactions</b>
 <ul>
