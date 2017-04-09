@@ -8,110 +8,113 @@
 	<header>
 		TutorDex
 	</header>
-	<div>
-		<h3 class="question-header">QUESTIONS</h3>
-	</div>
-	<div class="question">
-		<h2>
-			WHAT IS 1 + 1?
-		</h2>
-	</div>
-	<div>
-		<ul class="asker-info">
-			<li>Ian A.</li>
-			<li>Subject:Math</li>
-			<li>4/5/2017</li>
-		</ul>
-	</div>
-	<div>
-		<h3 class="answer-header">ANSWERS</h3>
-	</div>
-	<div class="answercontainer">
-		<div class="answer">
-			<div class="point-distribution">
-				<button class="points" onclick="plusOnePoint()"></button>
-				<button class="points" onclick="minusOnePoint()"></button>
-			</div>
-			<div class="individual-answer">
-				<p>
-					The answer to your question is 3.
-				</p>
-				<p>
-					Check out this <a href="https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=google%20calculator&oq=google%20calc&aqs=chrome.1.69i57j0l5.5623j0j7">resource</a>
-				</p>
-			</div>
-			<div class="answerer-info">
-				<ul>
-					<li class="name">
-						J. Kahauolopua
-					</li>
-					<li class="date">
-						4/4/2001
-					</li>
-				</ul>
-			</div>
+	<div class="ques-and-title-container">
+		<div>
+			<h3 class="question-header">QUESTIONS</h3>
 		</div>
-		<div class="answer">
-			<div>
-				<button class="points" onclick="plusOnePoint()"></button>
-				<button class="points" onclick="minusOnePoint()"></button>
-			</div>
-			<div class="individual-answer">
-				<p>
-					The answer is 1.
-				</p>
-				<p>
-					Because I know so.
-				</p>
-			</div>
-			<div>
-				<ul class="answerer-info">
-					<li class="name">
-						J. Harris
-					</li>
-					<li class="date">
-						4/7/2020
-					</li>
-				</ul>
-			</div>
+		<div class="question">
+			<h2>
+				WHAT IS 1 + 1?
+			</h2>
+		</div>
+		<div>
+			<ul class="asker-info">
+				<li>Ian A.</li>
+				<li>Subject:Math</li>
+				<li>4/5/2017</li>
+			</ul>
 		</div>
 	</div>
-	</div>
-	<div id="answer-submission">
-	</div>
-	<div>
-		<button class="subbutton">
-			SUBMIT ANSWERS
-		</button>
-	</div>
-	<div class="related-things">
-		<h2>RELATED QUESTIONS</h2>
-		<ul class="relatedque">
-			<li>
-				<a href="">How do I add?</a>
-			</li>
-			<li >
-				<a href="">What is Math?</a>
-			</li>
-			<li>
-				<a href="">What is the difference between adding and multiplying?</a>
-			</li>
-		</ul>
-		<H2>RELATED TOPICS</H2>
-		<ul class="relatedtop">
-			<li>
-				<a href="">Algebra</a>
-			</li>
-			<li>
-				<a href="">Geometry</a>
-			</li>
-			<li>
-				<a href="">Calculus</a>
-			</li>
-			<li>
-				<a href="">English</a>
-			</li>
-		</ul>
+	<div class="answer-and-nav-container">
+		<div>
+			<h3 class="answer-header">ANSWERS</h3>
+		</div>
+		<div class="answer-container">
+			<div class="answer">
+				<div class="point-distribution">
+					<button class="points" onclick="plusOnePoint()"></button>
+					<button class="points" onclick="minusOnePoint()"></button>
+				</div>
+				<div class="individual-answer">
+					<p>
+						The answer to your question is 3.
+					</p>
+					<p>
+						Check out this <a href="https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=google%20calculator&oq=google%20calc&aqs=chrome.1.69i57j0l5.5623j0j7">resource</a>
+					</p>
+				</div>
+				<div>
+					<ul class="answerer-info">
+						<li class="name">
+							J. Kahauolopua
+						</li>
+						<li class="date">
+							4/4/2001
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="answer">
+				<div>
+					<button class="points" onclick="plusOnePoint()"></button>
+					<button class="points" onclick="minusOnePoint()"></button>
+				</div>
+				<div class="individual-answer">
+					<p>
+						The answer is 1.
+					</p>
+					<p>
+						Because I know so.
+					</p>
+				</div>
+				<div>
+					<ul class="answerer-info">
+						<li class="name">
+							J. Harris
+						</li>
+						<li class="date">
+							4/7/2020
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="submission-section">
+			<input type="text" name="answer" placeholder="Want to answer? Type it in here!">
+			<button class="submit-button">
+				SUBMIT ANSWERS
+			</button>
+		</div>
+		<div class="related-things">
+			<h2>RELATED QUESTIONS</h2>
+			<ul class="related-questions">
+				<li>
+					<a href="">How do I add?</a>
+				</li>
+				<li >
+					<a href="">What is Math?</a>
+				</li>
+				<li>
+					<a href="">What is the difference between adding and multiplying?</a>
+				</li>
+			</ul>
+			<H2>RELATED TOPICS</H2>
+			<ul class="related-topics">
+				<li>
+					<a href="">Algebra</a>
+				</li>
+				<li>
+					<a href="">Geometry</a>
+				</li>
+				<li>
+					<a href="">Calculus</a>
+				</li>
+				<li>
+					<a href="">English</a>
+				</li>
+			</ul>
+		</div>
 	</div>
 </body>
 <script type="text/javascript" src="../js/app.js"></script>
