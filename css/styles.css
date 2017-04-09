@@ -7,8 +7,11 @@ html,body {
 
 header{
   z-index: 1;
-  position: absolute;
+    background-color: gray;
+    color:lightgreen;
+    font-size: 50px;    
 }
+
 #top {
   height: 50%;
   background-color: grey;
@@ -71,20 +74,112 @@ header{
 header {
 	font-family:;
 	margin-bottom:2%;
+    font-size:50px;
 }
 
 header, #que, a, .name,{
 	color:lightgreen;
 }
+.question-header{
+    background-color:gray;
+    height: 200px;
+    width:100%;
+    padding: 20px 11%;
+    margin-top: 0%;
+    color: lightgreen;
+}
+.question-header h3{
+    margin-top: 0%;
+    margin-left: 30%;
+}
+.question{
+    margin-top: -15%;
+    margin-left: 40%;
+    font-size: 25px;
+    color: white;
+}
+.asker-info{
+    margin-left: 37.5%;
+    color:white;
+    display: block
+}
+.answer-header{
+    margin-left: 12%;
+    margin-top: 70px;
+}
+.individual-answer{
+	height:150px;
+	width: 653px;
+	background-color:lightgray;
+    margin-left: 23%;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
+    font-size:18px;
+    
+}
+.name{
+    color: lightgreen;
+}
 
-.answers{
-	height:auto;
-	width: 300px;
-	background-color:grey;
+.answerer-info{
+    margin-left:21%;
+    margin-top:-70px;
+    font-size:18px;
+}
+.points{
+    background-color:lightgreen;
+    height: 60px;
+    width: 60px;
+    border-radius: 500px;
+    margin-left: 70px;
+}
+.related-things h2{
+    font-size:21px;
+    margin-left: 12px
+    
 }
 
 .related-things{
-	float: left;
+	float:right;
+    background-color: gray;
+    width:250px;
+    height: auto;
+    padding: 10px 10px 10px;
+    margin-right: 20px;
+    color:white; 
+    margin-top: -45.8%;
+}
+a{
+    color: lightgreen;
 }
 
+li{
+    list-style: none;
+}
+input{
+    height: 100px;
+    width:670px;
+    margin-top: 20px;
+    margin-left: 23%
+}
+.subbutton{
+    background-color:lightgreen;
+    color: white;
+    height: 50px;
+    padding: 10px 40px;
+    margin-top:20px;
+    margin-left:58%;
+    border-radius: 10px;
+}
+
+/*.answerer-info ul{
+    margin: 0;
+    padding: 0;
+}*/
+/*.asker-info,.answerer-info ul li{
+    display: inline;
+}*/
+
 >>>>>>> 61c29222e5824deab6434d065f2bf56f7f6c6afd
+
+
