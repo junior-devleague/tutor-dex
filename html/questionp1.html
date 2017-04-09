@@ -9,54 +9,54 @@
 		TutorDex
 	</header>
 	<div>
-		<h3 id="que">QUESTIONS</h3>
+		<h3 class="question-header">QUESTIONS</h3>
 	</div>
-	<div>
+	<div class="question">
 		<h2>
 			WHAT IS 1 + 1?
 		</h2>
 	</div>
 	<div>
-		<ul>
+		<ul class="asker-info">
 			<li>Ian A.</li>
 			<li>Subject:Math</li>
 			<li>4/5/2017</li>
 		</ul>
 	</div>
 	<div>
-		<h3 id="ans">ANSWERS</h3>
+		<h3 class="answer-header">ANSWERS</h3>
 	</div>
-	<div id="answercontainer">
-		<div class="answers">
-			<div>
+	<div class="answercontainer">
+		<div class="answer">
+			<div class="point-distribution">
 				<button class="points" onclick="plusOnePoint()"></button>
 				<button class="points" onclick="minusOnePoint()"></button>
 			</div>
-			<div>
+			<div class="individual-answer">
 				<p>
 					The answer to your question is 3.
 				</p>
 				<p>
-					Check out this resource <a href="https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=google%20calculator&oq=google%20calc&aqs=chrome.1.69i57j0l5.5623j0j7">link</a>
+					Check out this <a href="https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=google%20calculator&oq=google%20calc&aqs=chrome.1.69i57j0l5.5623j0j7">resource</a>
 				</p>
 			</div>
-			<div>
+			<div class="answerer-info">
 				<ul>
 					<li class="name">
 						J. Kahauolopua
 					</li>
-					<li>
+					<li class="date">
 						4/4/2001
 					</li>
 				</ul>
 			</div>
 		</div>
-		<div class="answers">
+		<div class="answer">
 			<div>
 				<button class="points" onclick="plusOnePoint()"></button>
 				<button class="points" onclick="minusOnePoint()"></button>
 			</div>
-			<div>
+			<div class="individual-answer">
 				<p>
 					The answer is 1.
 				</p>
@@ -65,18 +65,19 @@
 				</p>
 			</div>
 			<div>
-				<ul>
+				<ul class="answerer-info">
 					<li class="name">
 						J. Harris
 					</li>
-					<li>
+					<li class="date">
 						4/7/2020
 					</li>
 				</ul>
 			</div>
 		</div>
 	</div>
-	<div id="answer-sub">
+	</div>
+	<div id="answer-submission">
 	</div>
 	<div>
 		<button class="subbutton">
