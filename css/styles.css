@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html,body {
     padding:0;
     margin:0;
@@ -66,3 +67,24 @@ header{
   margin-top: 20%;
 
 }
+=======
+header {
+	font-family:;
+	margin-bottom:2%;
+}
+
+header, #que, a, .name,{
+	color:lightgreen;
+}
+
+.answers{
+	height:auto;
+	width: 300px;
+	background-color:grey;
+}
+
+.related-things{
+	float: left;
+}
+
+>>>>>>> 61c29222e5824deab6434d065f2bf56f7f6c6afd
