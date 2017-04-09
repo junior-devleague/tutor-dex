@@ -12,7 +12,7 @@ Scrum meeting format
 =====================================
 =====================================
 
-///Log 1 (4/5/17)\\\
+/// Log 1 (4/5/17) \\\
 The goal was to add the basic files for the project (html, css, js) and start/work on a page in partners.
 
 Tasks of today:
@@ -20,7 +20,7 @@ Tasks of today:
 
 Corn: Create html folder and index file
 Kyle: Create javascript folder and app file
-Gwen: Create css folder and styles file
+Gwyneth (Gwen): Create css folder and styles file
 Angela: Oversee tasks and accept pull requests
 Kyle and Corn: Work on home page
 Angela and Gwen: Work on question/answer page
@@ -28,14 +28,27 @@ Angela and Gwen: Work on question/answer page
 =====================================
 =====================================
 
-///Log 2 (2/7/17)\\\
-The goal of today is to finish the html for both pages we worked on Wednesday. We are still working/coding in pairs.
+/// Log 2 (4/7/17) \\\
+The goal of today is to work on the html for both pages we worked on Wednesday. We are still working/coding in pairs.
 
 Tasks of today:
 | work on pages together |
 
-Kyle and Corn: Work on home page
-Angela and Gwen: Work on question/answer page
+Kyle and Corn: Work on home page - committing from corn's github
+Angela and Gwen: Work on question/answer page - committing from gwen's github
 
 =====================================
 =====================================
+
+/// Log 3 (4/8/17) \\\
+	Location: Gwen's house
+	Members attending: Gwen and Angela
+
+The goal of today is to finish the html and work on the css and javascript
+
+Tasks of today:
+| finish html for question page (qpg)| start css for qpg | start javascript for qpg | 
+
+Angela and Gwen: Finish question/answer page - committing from gwen's github
+Angela: start javascript for qpg
+Gwen: start css for qpg
