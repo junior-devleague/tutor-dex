@@ -1,69 +1,140 @@
-html,body {
-    padding:0;
-    margin:0;
-    height:100%;
+body, html, #container {
+  height: 100%;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #333;
 }
 
-header{
-  z-index: 1;
-  position: absolute;
+#navbar a {
+  float: left;
+  font-size: 20px;
+  color: #00FF7F;
+  padding: 20px;
+  text-decoration: none;
 }
-#top {
-  height: 50%;
-  background-color: grey;
-  width: 100%;
+
+#container {
   position: absolute;
   top: 0;
-  z-index: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+#top {
+  height:40%;
+  width:100%;
+  background-color: #696969;
+  margin:auto;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 
 #bottom {
-  height: 50%;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
+  height:60%;
+  width:100%;
+  background-color: white;
+  margin:auto;
+  text-align:center;
+  color:#FFFFFF;
+  display: flex;
+  flex-direction: column;
 }
 
-#ask{
-  background-color: red;
-  height: 20%;
-  width: 20%;  
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+#top .item {
+  width: 20%;
+  margin: 10px;
+  text-align: center;
+  display: table;
+}
+
+#bottom .item {
+  width: 20%;
+  margin: 10px;
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+}
+
+.item h1 {
+  color: white;
+  font-size: 45px;
+}
+
+.item h2 {
+  margin-top: 100px;
+  color: #696969;
+}
+
+.item h3 {
+  color: #696969;
+  margin-top: 20%;
   text-align: center;
 }
-#ask-pick{
-  width: 50%;
-  margin: 0 auto;
-}
-#search{
-  background-color: blue;
-  height: 20%;
-  width: 20%;  
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
+
+.item input {
+  height: 35px;
+  width: 450px;
 }
 
-#subject-tutor{
-  width: 50%;
-  margin: 0 auto;
+.item input[type="text"]{
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 15px;
 }
 
-#top-subjects{
-  background-color: green;
-  height: 20%;
-  width: 20%;  
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20%;
+.item input-placeholder {
+  color: #90EE90;
+}
+.item li {
+  color: #696969;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
 
+.item ul {
+  column-count: 3;
+  list-style-type: none;
+}
+.item select {
+  height: 35px;
+  width: 454px;
+  padding: 5px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 15px;
+}
+
+.item #pick-placeholder {
+  color: #C7C7CD;
+}
+
+#top .item button {
+  background-color: #00FF7F;
+  border-radius: 6px;
+  border-style: none;
+  color: white;
+  padding: 20px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+}
+
+#bottom .item button {
+  margin-top: 20px; 
+  background-color: #696969;
+  border-radius: 6px;
+  border-style: none;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
 }
