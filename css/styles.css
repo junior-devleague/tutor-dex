@@ -2,12 +2,13 @@ body, html, #container {
   height: 100%;
   font-family: 'Bitter', serif;
 }
-#navbar {
+
+#navbar { /*top bar, says TutorDex on the left */
   overflow: hidden;
   background-color: #333;
 }
 
-#navbar a {
+#navbar a { /*TutorDex (navbar) */
   float: left;
   font-size: 20px;
   color: #8AE8A1;
@@ -16,14 +17,14 @@ body, html, #container {
   font-family: 'Exo', sans-serif;
 }
 
-#container {
+#container { /* contains top and bottom id, don't change */
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
 }
-#top {
+#top { /* top half of the page, includes navbar, input, select, and top button */
   height:40%;
   width:100%;
   background-color: #4A4A4A;
@@ -37,7 +38,7 @@ body, html, #container {
   justify-content: center;
 }
 
-#bottom {
+#bottom { /* bottom half of the page, includes searching, and top subjects */
   height:60%;
   width:100%;
   background-color: white;
@@ -48,14 +49,14 @@ body, html, #container {
   flex-direction: column;
 }
 
-#top .item {
+#top .item {  /* every item for the top half of the page, horizontally centered */
   width: 20%;
   margin: 10px;
   text-align: center;
   display: table;
 }
 
-#bottom .item {
+#bottom .item { /* every item for the bottom half of the page, */
   width: 20%;
   margin: 10px;
   text-align: center;
@@ -63,19 +64,19 @@ body, html, #container {
   margin: 0 auto;
 }
 
-.item h1 {
+.item h1 { /* NEED ANSWERS? */
   color: white;
   font-size: 45px;
   font-family: 'Raleway', sans-serif;
 }
 
-.item h2 {
+.item h2 { /* FIND SOMETHING YOU NEED... */
   margin-top: 100px;
   color: #838383;
   font-family: 'Raleway', sans-serif;
 }
 
-.item h3 {
+.item h3 { /* TOP SUBJECTS */
   color: #838383;
   margin-top: 20%;
   text-align: center;
@@ -83,33 +84,23 @@ body, html, #container {
   text-align: left;
 }
 
-.item input {
+.item input { /* ask a question search box */
   height: 35px;
   width: 450px;
   font-family: 'Bitter', serif;
 }
 
-.item input[type="text"]{
+.item input[type="text"]{ /* what the user types in the search box */
   font-family: 'Bitter', serif;
   font-size: 15px;
 }
 
-.item input-placeholder {
+.item input-placeholder { /* "ask a question" placeholder for the search box */
   color: #90EE90;
   font-family: 'Bitter', serif;
 }
-.item li {
-  color: #696969;
-  padding: 10px;
-  width: 200px;
-  text-align: left;
-}
 
-.item ul {
-  column-count: 3;
-  list-style-type: none;
-}
-.item select {
+.item select { /* the dropdown for selecting subjects */ 
   height: 35px;
   width: 454px;
   padding: 5px;
@@ -118,19 +109,32 @@ body, html, #container {
   color: #696969;
 }
 
-.item option {
+.item option { /* each individual option on the dropdown */
   color: #696969;
 }
 
-.item option:first-child {
+.item option:first-child { /* the first option of the select*/
   color: #696969;
 }
 
-.item #pick-placeholder {
+.item #pick-placeholder { /* placeholder, a.k.a "pick a subject" */
   color: #C7C7CD;
 }
 
-#top .item button {
+
+.item li { /* list item values for top subject */
+  color: #696969;
+  padding: 10px;
+  width: 200px;
+  text-align: left;
+}
+
+.item ul { /* ul for top subject, set to 3 columns */ 
+  column-count: 3;
+  list-style-type: none;
+}
+
+#top .item button { /* "ASK US" button */
   background-color: #8AE8A1;
   border-radius: 6px;
   border-style: none;
@@ -143,7 +147,7 @@ body, html, #container {
   cursor:pointer;
 }
 
-#bottom .item button {
+#bottom .item button { /* "SEARCH" button */
   margin-top: 20px; 
   background-color: #EDEDED;
   border-radius: 6px;
