@@ -1,6 +1,6 @@
 body, html, #container {
   height: 100%;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-family: 'Bitter', serif;
 }
 #navbar {
   overflow: hidden;
@@ -10,9 +10,10 @@ body, html, #container {
 #navbar a {
   float: left;
   font-size: 20px;
-  color: #00FF7F;
+  color: #8AE8A1;
   padding: 20px;
   text-decoration: none;
+  font-family: 'Exo', sans-serif;
 }
 
 #container {
@@ -25,7 +26,7 @@ body, html, #container {
 #top {
   height:40%;
   width:100%;
-  background-color: #696969;
+  background-color: #4A4A4A;
   margin:auto;
   text-align:center;
   display: flex;
@@ -65,37 +66,43 @@ body, html, #container {
 .item h1 {
   color: white;
   font-size: 45px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .item h2 {
   margin-top: 100px;
-  color: #696969;
+  color: #838383;
+  font-family: 'Raleway', sans-serif;
 }
 
 .item h3 {
-  color: #696969;
+  color: #838383;
   margin-top: 20%;
   text-align: center;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
 }
 
 .item input {
   height: 35px;
   width: 450px;
+  font-family: 'Bitter', serif;
 }
 
 .item input[type="text"]{
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-family: 'Bitter', serif;
   font-size: 15px;
 }
 
 .item input-placeholder {
   color: #90EE90;
+  font-family: 'Bitter', serif;
 }
 .item li {
   color: #696969;
   padding: 10px;
   width: 200px;
-  text-align: center;
+  text-align: left;
 }
 
 .item ul {
@@ -106,8 +113,17 @@ body, html, #container {
   height: 35px;
   width: 454px;
   padding: 5px;
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-family: 'Bitter', serif;
   font-size: 15px;
+  color: #696969;
+}
+
+.item option {
+  color: #696969;
+}
+
+.item option:first-child {
+  color: #696969;
 }
 
 .item #pick-placeholder {
@@ -115,7 +131,7 @@ body, html, #container {
 }
 
 #top .item button {
-  background-color: #00FF7F;
+  background-color: #8AE8A1;
   border-radius: 6px;
   border-style: none;
   color: white;
@@ -124,17 +140,21 @@ body, html, #container {
   text-decoration: none;
   display: inline-block;
   font-size: 26px;
+  cursor:pointer;
 }
 
 #bottom .item button {
   margin-top: 20px; 
-  background-color: #696969;
+  background-color: #EDEDED;
   border-radius: 6px;
-  border-style: none;
-  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4A4A4A;
+  color: #838383;
   padding: 10px 50px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
+  cursor:pointer;
 }
