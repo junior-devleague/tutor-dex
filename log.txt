@@ -60,7 +60,21 @@ Gwen: start css for qpg
 Kyle said that he worked on the CSS for the home page at home. Gwen and I shared the progress we made on the question page. The goal of today is to complete the home page and move on to the subjects view. Gwen and I will work on the CSS and Javascript for the home page respectively. 
 
 Tasks of today: 
-| finish home page (css and js) | work on js for question page | work on css for question page | start HTML for subject page |
+| work on home page (css and js) | work on js for question page | work on css for question page | start HTML for subject page |
+
+Kyle: CSS for home page
+Corn: HTML for subject page 
+Angela: JS for question page
+Gwen: CSS for question page
+
+=====================================
+=====================================
+
+/// Log 5 (4/12/17) \\\
+Corn said he worked on the HTML for the subject page but had difficulty linking his css. We helped him resolve the issue by checking how he typed the path; he was missing '../'. Kyle worked on the CSS for the home page, while Gwen did the CSS for the question page. I worked on the Javascript to add a like button. We will continue to work on our tasks from last class.
+
+Tasks of today: 
+| work on home page (css and js) | work on js for question page | work on css for question page | work on HTML for subject page |
 
 Kyle: CSS for home page
 Corn: HTML for subject page 
