@@ -12,16 +12,19 @@ function plusOnePoint(id){
   num = num + 1;
 	pointReader.innerHTML = "+" + num;
   disliked.push(""+id);
-  console.log(disliked);
 }
 
 function plusSecondPoint(id){
   console.log("hello. i work :)");
   var pointReader = document.getElementById(id);
-  console.log(id);
-  console.log(numTwo);
   numTwo = numTwo + 1;
-  pointReader.innerHTML = "+" + numTwo;
+  pointReader.innerHTML = "-" + numTwo;
   disliked.push(""+id);
-  console.log(disliked);
+}
+
+function minusOnePoint(id){
+  var pointReader = document.getElementById(id);
+  num = num + 1;
+  pointReader.innerHTML = "-" + num;
+  console.log("point subtracted :(");
 }
