@@ -2,50 +2,72 @@
 <html>
 <head>
   <title>tutordex</title>
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
 </head>
-  <link rel="stylesheet" href="css/styles.css">
 <body>
-  <header>
-    <h1>TutorDex</h1>
-  </header>
-  <div id="top">
-    <div id="ask">
-      <h1>NEED ANSWERS?</h1>
-      <div id="ask-pick">
-        <input type="text" name="search" placeholder="ask a question">
+  <div id="container">
+    <div id="navbar">
+      <a href="">TutorDex</a>
+    </div>
+    <div id="top">
+      <div class="item">
+        <h1>NEED ANSWERS?</h1>
+      </div>
+      <div class="item">
+        <input name="search" placeholder=" ask a question" type="text">
+      </div>
+      <div class="item">
         <select>
-          <option selected="selected">pick a subject</option>
-          <option>math</option>
-          <option>science</option>
-          <option>ss</option>
-          <option>english</option>
+          <option id="pick-placeholder" selected disabled>
+            pick a subject
+          </option>
+          <option>
+            Math
+          </option>
+          <option>
+            Science
+          </option>
+          <option>
+            Social Studies
+          </option>
+          <option>
+            English
+          </option>
         </select>
-        <button>ask us</button>
+      </div>
+      <div class="item">
+        <button>ASK US</button>
       </div>
     </div>
-  </div>
-  <div id="bottom">
-    <div id="search">
-      <h1>FIND SOMETHING YOU NEED...</h1>
-      <div id="subject-tutor"></div>
-      <input type="text" name="search" placeholder="by subject / by tutor">
-      <button>search</button>
-    </div>
-    <div id="top-subjects">
-    <h1>top subjects</h1>
-      <ul>
-        <li>Algebra</li>
-        <li>Chemistry</li>
-        <li>Biology</li>
-        <li>Geometry</li>
-        <li>English</li>
-        <li>ESL</li>
-        <li>Pre-Calculus</li>
-        <li>Ancient Civilizations</li>
-        <li>U.S History</li>
-        <li>Russian Literature</li>
-        <li>Bio Chemistry</li>
-      </ul>
+    <div id="bottom">
+      <div class="item">
+        <h2>FIND SOMETHING YOU NEED...</h2>
+      </div>
+      <div class="item">
+        <input name="search" placeholder=" by subject / by tutor" type="text">
+      </div>
+      <div class="item">
+        <button>SEARCH</button>
+      </div>
+      <div class="item">
+        <h3>TOP SUBJECTS</h3>
+        <ul>
+          <li>Algebra</li>
+          <li>Chemistry</li>
+          <li>Biology</li>
+          <li>Geometry</li>
+          <li>English</li>
+          <li>ESL</li>
+          <li>Pre-Calculus</li>
+          <li>Ancient Civilizations</li>
+          <li>U.S History</li>
+          <li>Russian Literature</li>
+          <li>Bio Chemistry</li>
+        </ul>
+      </div>
     </div>
   </div>
 </body>
