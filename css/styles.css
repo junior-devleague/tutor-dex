@@ -21,7 +21,8 @@ header{
     background-color: #4A4A4A;
     color:#8AE8A1;
     font-size: 50px;
-    font-family: 'Exo', sans-serif; 
+    font-family: 'Exo', sans-serif;
+    height: 300px; 
 }
 
 #top {
@@ -88,11 +89,8 @@ header{
 
 /*QUESTIONS PAGE*/
 
-
-.re
 .question-header{
     background-color:#4A4A4A;
-    height:200px;
     padding:20px 11%;
     margin-top:0%;
     color: #8AE8A1;
@@ -100,12 +98,11 @@ header{
 
 .question-header h3{
     margin-top: 0%;
-    margin-left: 30%;
-
+    margin-left: 60%;
 }
 
 .question{
-    margin-top: -17%;
+    margin-top: -20%;
     margin-left: 40%;
     font-size: 25px;
     color: white;
