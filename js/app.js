@@ -22,9 +22,10 @@ function plusSecondPoint(id){
   disliked.push(""+id);
 }
 
-/*function minusOnePoint(id){
-  var pointReader = document.getElementById(id);
+function minusOnePoint(id){
+  var pointReader = document.getElementById(id).parentElement.getElementsByClassName("points");
+  console.log(pointReader);
   num = num + 1;
   pointReader.innerHTML = "-" + num;
-  console.log("point subtracted :(");
-}*/
+  // console.log("point subtracted :(");
+}
