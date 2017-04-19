@@ -80,3 +80,31 @@ Kyle: CSS for home page
 Corn: HTML for subject page 
 Angela: JS for question page
 Gwen: CSS for question page
+
+=====================================
+=====================================
+
+/// Log 6 (4/17/17) \\\
+Everyone worked on their respective tasks.
+
+Tasks of today:
+| work on home page (css and js) | work on js for question page | work on css/html for question page | work on HTML for subject page |
+
+Kyle: CSS for home page
+Corn: HTML for subject page 
+Angela: JS for question page
+Gwen: HTML for question page 2
+
+=====================================
+=====================================
+
+/// Log 7 (4/19/17) \\\
+Corn experienced problems with pulling to his subject branch from remote. Everyone is working on their tasks as mentioned before.
+
+Tasks of today:
+| work on home page (css and js) | work on js for question page | work on css for question page | work on HTML for subject page |
+
+Kyle: CSS for home page
+Corn: HTML for subject page 
+Angela: JS for question page
+Gwen: CSS for question page
