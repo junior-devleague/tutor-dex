@@ -87,24 +87,34 @@ body, html, #container {
 
 #top-middle { /* top half of the middle portion of the whole subject page, includes top questions  */
   height:40%;
-  width:100%;
-  background-color: white;
+  width:80%;
   margin: auto;
   text-align:center;
+  display: flex;
+  flex-direction: column;
 }
 
-#question-header h1 {
+#question-header{
   color: #4A4A4A;
+  text-align: left;
+  margin-right: auto;
 }
 
 #top-questions li {
-  color: #696969;
-  padding: 10px;
-  width: 200px;
+  color: #4A4A4A;
+  width: 300px;
+  display: inline-block;
+  padding-bottom: 10px;
   text-align: left;
 }
 
 #top-questions ul{
-  column-count: 3;
+  columns: 3;
   list-style-type: none;
+  overflow: auto;
+}
+
+#top-questions a{
+  text-decoration: none;
+  color: #4A4A4A;
 }
