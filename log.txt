@@ -102,9 +102,9 @@ Gwen: HTML for question page 2
 Corn experienced problems with pulling to his subject branch from remote. Everyone is working on their tasks as mentioned before.
 
 Tasks of today:
-| work on home page (css and js) | work on js for question page | work on css for question page | work on HTML for subject page |
+| work on home page (css and js) | work on js for question page | work on css for question page | work on HTML for subject page | fix merge conflicts |
 
 Kyle: CSS for home page
 Corn: HTML for subject page 
-Angela: JS for question page
+Angela: fixed merge conflicts | JS for question page
 Gwen: CSS for question page
