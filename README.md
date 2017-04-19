@@ -127,3 +127,19 @@ Developers: Kyle Lingat, Cornelious Mooring, Angela Geronimo, Gwen Raquepo</p>
   <li>Allow user to submit answer, store in local storage and display answer.</li>
   <li>Make actual forms but do not send data.</li>
 </ul>
+
+<h2>Update after 4/15</h2>
+<b>To Do</b>
+<ul>
+  <li>Origin master needs to updated with the latest styles</li>
+  <li>Add JS for voting system</li>
+  <li>CSS for remove animation</li>
+</ul>
+
+<h1>Progressing nicely! Don't forget to update master branch.</h1>
+<b>Improvments</b>
+<ul>
+  <li>Gwen and Angela: Let's stick to the mockups for the voting system. When the number is negative make the circle background red.</li>
+  <li>Update master with Kyle's flexbox styles. Kyle: add flexbox container class to add flexbox to elements that need to use it. Polish CSS</li>
+  <li>Cornelious: create an array of subjects and psuedo code direction to print to the #top-subjects element.</li>
+</ul>
