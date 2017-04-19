@@ -16,6 +16,12 @@ idea 1:
   change inner html to add or subtract points
   check for positive and negative points
   if total is negative, make button style red
+
+idea 2:
+  id buttons with numbers (1,2,3,4)
+  if number is odd, add a point | if number is even, subtract a point
+  adding point:function targets itself
+  subtracting:function subtracts 1 to target like button (so that the number is in one place)
 */
 
 function plusOnePoint(id){
