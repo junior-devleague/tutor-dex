@@ -129,6 +129,10 @@ body, html, #container {
   text-align: left;
 }
 
+.item a { /*href for top subjects */
+  text-decoration: none;
+}
+
 .item ul { /* ul for top subject, set to 3 columns */ 
   column-count: 3;
   list-style-type: none;
