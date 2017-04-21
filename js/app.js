@@ -1,8 +1,29 @@
 var num = 0;
+var numTwo = 0;
+var disliked = [];
 
+/*
+-make dynamic id by adding 'like' or 'dislike' and the last name 
+-if the id already exists, add a number (would be used for multiple comments by user)
+-if points are negative, turn button red
+*/
 
-//make dynamic id by adding 'like' or 'dislike' and the last name 
-//if the id already exists, add a number (would be used for multiple comments by user)
+/* POINT CHANGING
+idea 1:
+  id the buttons with numbers (i.e. l1 dl1 l2 dl2)
+  use to target class of button with points 
+    ex. document.getElementsByClassName("buttonClass[id]").innerHTML
+  change inner html to add or subtract points
+  check for positive and negative points
+  if total is negative, make button style red
+
+idea 2:
+  id buttons with numbers (1,2,3,4)
+  if number is odd, add a point | if number is even, subtract a point
+  adding point:function targets itself
+  subtracting:function subtracts 1 to target like button (so that the number is in one place)
+*/
+
 function plusOnePoint(id){
   console.log("hello. i work :)");
   var pointReader = document.getElementById(id);
@@ -10,4 +31,21 @@ function plusOnePoint(id){
   console.log(num);
   num = num + 1;
 	pointReader.innerHTML = "+" + num;
+  disliked.push(""+id);
+}
+
+function plusSecondPoint(id){
+  console.log("hello. i work :)");
+  var pointReader = document.getElementById(id);
+  numTwo = numTwo + 1;
+  pointReader.innerHTML = "-" + numTwo;
+  disliked.push(""+id);
+}
+
+function minusOnePoint(id){
+  var pointReader = document.getElementById(id).parentElement.getElementsByClassName("points");
+  console.log(pointReader);
+  num = num + 1;
+  pointReader.innerHTML = "-" + num;
+  // console.log("point subtracted :(");
 }
