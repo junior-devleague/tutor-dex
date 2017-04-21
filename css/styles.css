@@ -76,11 +76,35 @@ html,body {
    color: white;
    font-family: 'Raleway', sans-serif;
   }
+
+  .question2 h2{
+   margin-top: -15%;
+   margin-left: 24%;
+   font-size: 35px;
+   color: white;
+   font-family: 'Raleway', sans-serif;
+  }
+  .question3 h2{
+   margin-top: -15%;
+   margin-left: 30%;
+   font-size: 35px;
+   color: white;
+   font-family: 'Raleway', sans-serif;
+  }
  
   .asker-info{
    margin-left: 37.5%;
    color:white;
    display: block 
+  }
+
+  .asker-info2{
+   margin-left: 21%;
+   color:white;
+   display: block 
+  }
+  .asker-info2{
+   font-family: 'Bitter', serif;
   }
  
   .answer-header{
