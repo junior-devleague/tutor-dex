@@ -87,7 +87,7 @@ html,body {
   .question3 h2{
    margin-top: -15%;
    margin-left: 30%;
-   font-size: 35px;
+   font-size: 40px;
    color: white;
    font-family: 'Raleway', sans-serif;
   }
@@ -104,6 +104,14 @@ html,body {
    display: block 
   }
   .asker-info2{
+   font-family: 'Bitter', serif;
+  }
+  .asker-info3{
+   margin-left: 27.5%;
+   color:white;
+   display: block 
+  }
+  .asker-info3{
    font-family: 'Bitter', serif;
   }
  
