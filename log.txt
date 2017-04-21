@@ -1,0 +1,123 @@
+***Tutor Dex Project Log***
+
+FORMAT for in class reports:
+Date
+Scrum meeting format:
+assigned tasks | name:task
+=====================================
+FORMAT for out of class reports:
+Date | location | members who attended
+Scrum meeting format
+
+=====================================
+=====================================
+
+/// Log 1 (4/5/17) \\\
+The goal was to add the basic files for the project (html, css, js) and start/work on a page in partners.
+
+Tasks of today:
+| create base files | work on different pages for app |
+
+Corn: Create html folder and index file
+Kyle: Create javascript folder and app file
+Gwyneth (Gwen): Create css folder and styles file
+Angela: Oversee tasks and accept pull requests
+Kyle and Corn: Work on home page
+Angela and Gwen: Work on question/answer page
+
+=====================================
+=====================================
+
+/// Log 2 (4/7/17) \\\
+The goal of today is to work on the html for both pages we worked on Wednesday. We are still working/coding in pairs.
+
+Tasks of today:
+| work on pages together |
+
+Kyle and Corn: Work on home page - committing from corn's github
+Angela and Gwen: Work on question/answer page - committing from gwen's github
+
+=====================================
+=====================================
+
+/// Log 3 (4/8/17) \\\
+	Location: Gwen's house
+	Members attending: Gwen and Angela
+
+The goal of today is to finish the html and work on the css and javascript
+
+Tasks of today:
+| finish html for question page (qpg)| start css for qpg | start javascript for qpg | 
+
+Angela and Gwen: Finish question/answer page - committing from gwen's github
+Angela: start javascript for qpg
+Gwen: start css for qpg
+
+=====================================
+=====================================
+
+/// Log 4 (4/10/17) \\\
+Kyle said that he worked on the CSS for the home page at home. Gwen and I shared the progress we made on the question page. The goal of today is to complete the home page and move on to the subjects view. Gwen and I will work on the CSS and Javascript for the home page respectively. 
+
+Tasks of today: 
+| work on home page (css and js) | work on js for question page | work on css for question page | start HTML for subject page |
+
+Kyle: CSS for home page
+Corn: HTML for subject page 
+Angela: JS for question page
+Gwen: CSS for question page
+
+=====================================
+=====================================
+
+/// Log 5 (4/12/17) \\\
+Corn said he worked on the HTML for the subject page but had difficulty linking his css. We helped him resolve the issue by checking how he typed the path; he was missing '../'. Kyle worked on the CSS for the home page, while Gwen did the CSS for the question page. I worked on the Javascript to add a like button. We will continue to work on our tasks from last class.
+
+Tasks of today: 
+| work on home page (css and js) | work on js for question page | work on css for question page | work on HTML for subject page |
+
+Kyle: CSS for home page
+Corn: HTML for subject page 
+Angela: JS for question page
+Gwen: CSS for question page
+
+=====================================
+=====================================
+
+/// Log 6 (4/17/17) \\\
+Everyone worked on their respective tasks.
+
+Tasks of today:
+| work on home page (css and js) | work on js for question page | work on css/html for question page | work on HTML for subject page |
+
+Kyle: CSS for home page
+Corn: HTML for subject page 
+Angela: JS for question page
+Gwen: HTML for question page 2
+
+=====================================
+=====================================
+
+/// Log 7 (4/19/17) \\\
+Corn experienced problems with pulling to his subject branch from remote. Everyone is working on their tasks as mentioned before.
+
+Tasks of today:
+| work on home page (css and js) | work on js for question page | work on css for question page | work on HTML for subject page | fix merge conflicts |
+
+Kyle: CSS for home page
+Corn: HTML for subject page 
+Angela: fix merge conflicts | JS for question page
+Gwen: CSS for question page
+
+=====================================
+=====================================
+
+/// Log 8 (4/21/17) \\\
+Corn and Kyle were trying to do CSS for the subject page and had trouble aligning questions. Gwen also worked on CSS for the question pages. Angela was able to resolve merge conflicts and update the master branch. 
+
+Tasks of today:
+| work on js for question page | work on css for question pages | work on CSS for subject page | fix merge conflicts |
+
+Kyle and Corn: CSS for subject page
+Angela: fix merge conflicts | JS for question page
+Gwen: CSS for questions pages

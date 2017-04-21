@@ -1,7 +1,7 @@
 # tutor-dex
 WHS TutorDex Final Project
 
-<p>Project Manager: Not Assigned<br>
+<p>Project Manager: Angela Geronimo<br>
 Developers: Kyle Lingat, Cornelious Mooring, Angela Geronimo, Gwen Raquepo</p>
 
 <h3>Final Project Breakdown</h3>
@@ -82,6 +82,7 @@ Developers: Kyle Lingat, Cornelious Mooring, Angela Geronimo, Gwen Raquepo</p>
 <ul>
   <li>Follow the design views found under the Assets folder.</li>
   <li>If the view is not the home (first page/index.html), create a new file in the root folder with the view name.</li>
+  <li>Create interactive buttons (links) to navigate through views</li>
 </ul>
 
 <b>Adding CSS</b>
@@ -90,6 +91,19 @@ Developers: Kyle Lingat, Cornelious Mooring, Angela Geronimo, Gwen Raquepo</p>
   <li>Assign classes to reusable styles.</li>
   <li>Create a block comment if styles are for a specific view or user interaction, otherwise it's considered a general style.</li>
 </ul>
+<ul>
+  <li><b>Colors</b><ul>
+    <li>Dark Gray: #4A4A4A</li>
+    <li>Light Gray: #EDEDED</li>
+    <li>Green: #8AE8A1</li>
+    <li>Body Font: #838383</li>
+  </ul></li>
+  <li><b>Fonts</b><ul>
+    <li>Logo <a href="https://fonts.google.com/specimen/Exo">Exo Semibold</a></li>
+    <li>Headings <a href="https://fonts.google.com/specimen/Raleway">Raleway Semibold</a></li>
+    <li>Body <a href="https://fonts.google.com/specimen/Bitter">Bitter</a></li>
+  </ul></li>
+</ul>
 
 <b>User Interactions</b>
 <ul>
@@ -97,9 +111,35 @@ Developers: Kyle Lingat, Cornelious Mooring, Angela Geronimo, Gwen Raquepo</p>
   <li>Start each task with a block comment and include your pseudo code.</li>
   <li>Create array objects of mock data per page and store them in a variable</li>
   <li>Dynamically display mock data per view.</li>
-  <li>Create interactive buttons for the top navigation</li>
   <li>Sort - display data based on a keyword. Make the first items data show as default.</li>
 </ul>
 
 <h2>Task Breakdown - part 2</h2>
-<ul></ul>
+<ul>
+  <li>Create class for remove animation</li>
+  <li>When an item is down voted more than a certain number, add class to 'remove' item</li>
+  <li>When answer is given positive credit, change the style of the points container.</li>
+</ul>
+
+<h2>Stretch Goal</h2>
+<ul>
+  <!-- <li>Retreive subject from url and display data accordingly</li> -->
+  <li>Allow user to submit answer, store in local storage and display answer.</li>
+  <li>Make actual forms but do not send data.</li>
+</ul>
+
+<h2>Update after 4/15</h2>
+<b>To Do</b>
+<ul>
+  <li>Origin master needs to updated with the latest styles</li>
+  <li>Add JS for voting system</li>
+  <li>CSS for remove animation</li>
+</ul>
+
+<h1>Progressing nicely! Don't forget to update master branch.</h1>
+<b>Improvments</b>
+<ul>
+  <li>Gwen and Angela: Let's stick to the mockups for the voting system. When the number is negative make the circle background red.</li>
+  <li>Update master with Kyle's flexbox styles. Kyle: add flexbox container class to add flexbox to elements that need to use it. Polish CSS</li>
+  <li>Cornelious: create an array of subjects and psuedo code direction to print to the #top-subjects element.</li>
+</ul>
