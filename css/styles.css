@@ -1,66 +1,30 @@
 /*COLORS
-
  Dark Gray: #4A4A4A
  Light Gray: #EDEDED
  Green: #8AE8A1
  */
- 
-header{
-   z-index: 1;
-     background-color: #4A4A4A;
-     color:lightgreen;
-     font-size: 50px;    
-     z-index: 1;
-     background-color: #4A4A4A;
-     color:#8AE8A1;
-     font-size: 50px;
-     font-family: 'Exo', sans-serif; 
-  }
-
-#ask-pick{
-    width: 50%;
-    margin: 0 auto;
-  }
-
 /*FONTS 
 Logo: font-family: 'Exo', sans-serif;
 Headings: font-family: 'Raleway', sans-serif;
 Body: font-family: 'Bitter', serif;
-*/
-
-html,body {
-    padding:0;
-    margin:0;
-    height:100%;
-}
-
-#top {
-  height: 50%;
-  background-color: grey;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  z-index: 0;
-  -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
-
-  #search{
-    background-color: blue;
-    height: 20%;
+*/ 
+header{
+   z-index: 1;
+   background-color: #4A4A4A;
+   color:lightgreen;
+   font-size: 50px;    
+   z-index: 1;
+   background-color: #4A4A4A;
+   color:#8AE8A1;
+   font-size: 50px;
+   font-family: 'Exo', sans-serif; 
   }
 
- header {
-   font-family:;
-   margin-bottom:2%;
-     font-size:50px;
- }
-  
- header, #que, a, .name,{
-   color:lightgreen;
- }
-
+html,body {
+   padding:0;
+   margin:0;
+   height:100%;
+}
 /*QUESTIONS PAGE*/
 #ask{
   background-color: red;
@@ -77,24 +41,23 @@ html,body {
 }
 
 #ask-pick{
-  width: 50%;
-  margin: 0 auto;
+   width: 50%;
+   margin: 0 auto;
 }
 
 #search{
-  background-color: blue;
-  height: 20%;
-  width: 20%;  
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
+   background-color: blue;
+   height: 20%;
+   width: 20%;  
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 5%;
 }
 
   .question-header{
    background-color:#4A4A4A;
-   height: 200px;
-   width:100%;
+   height: 400px;
    padding: 20px 11%;
    margin-top: 0%;
    color: #8AE8A1;
@@ -108,11 +71,12 @@ html,body {
     margin-left: 30%;
  
   }
- 
+
   .question{
+   width: 100
    margin-top: -15%;
-   margin-top: -16%;
-   margin-left: 40%;
+   margin-right: 20%;
+   text-align: center;
    font-size: 25px;
    color: white;
    font-family: 'Raleway', sans-serif;
@@ -126,7 +90,7 @@ html,body {
  
   .answer-header{
     margin-left: 12%;
-    margin-top: 70px;
+    margin-top: 60px;
   }
  
   .individual-answer{
@@ -151,9 +115,9 @@ html,body {
  }
   
   .answerer-info{
-      margin-left:21%;
-      margin-top:-70px;
-      font-size:18px;
+     margin-left:21%;
+     margin-top:-70px;
+     font-size:18px;
   }
  
  .answerer-info .name{
@@ -169,7 +133,7 @@ html,body {
   }
 
   div .points {
-    margin-bottom: 0%;
+     margin-bottom: 0%;
   }
  
   .related-things h2{
@@ -187,7 +151,7 @@ html,body {
      padding: 10px 10px 10px;
      margin-right: 20px;
      color:white; 
-     margin-top: -48%;
+     margin-top: -52%;
   }
 
 
@@ -251,9 +215,9 @@ html,body {
 }
 
 .individual-answer{
-	height:150px;
-	width: 653px;
-	background-color:#EDEDED;
+  height:150px;
+  width: 653px;
+  background-color:#EDEDED;
     margin-left: 23%;
     margin-bottom: 15px;
     margin-top: 70px;
