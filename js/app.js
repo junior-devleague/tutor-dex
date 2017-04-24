@@ -32,10 +32,9 @@ idea 1:
 */
 
 function plusOnePoint(id){
-  // console.log("hello. i work :)");
   var pointReader = document.getElementById(id);
-  // console.log(id);
-  // console.log(num);
+
+  //checks if button id is odd or even (odd = add point | even = subtract point)
   if (id%2 == 1){
     num = num + 1;
     if (num > 0){
@@ -49,8 +48,12 @@ function plusOnePoint(id){
     if (num > 0){
       pointReader = document.getElementById(id - 1).innerHTML = "+" + num;
     } else{
+      //change button color to gray
       pointReader = document.getElementById(id - 1).innerHTML = "" + num;
-    }
+      if (num == 0){
+        pointReader.color=#C23B22
+      }
+    } 
   }
 }
 
