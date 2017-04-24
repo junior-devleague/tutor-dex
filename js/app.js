@@ -32,27 +32,43 @@ idea 1:
 */
 
 function plusOnePoint(id){
-  console.log("hello. i work :)");
+  // console.log("hello. i work :)");
   var pointReader = document.getElementById(id);
-  console.log(id);
-  console.log(num);
-  num = num + 1;
-	pointReader.innerHTML = "+" + num;
-  disliked.push(""+id);
+  // console.log(id);
+  // console.log(num);
+  if (id%2 == 1){
+    num = num + 1;
+    if (num > 0){
+      pointReader = document.getElementById(id).innerHTML = "+" + num;
+    } else{
+      pointReader = document.getElementById(id).innerHTML = "" + num;
+    }
+  } else{
+    console.log(id);
+    num = num - 1;
+    if (num > 0){
+      pointReader = document.getElementById(id - 1).innerHTML = "+" + num;
+    } else{
+      pointReader = document.getElementById(id - 1).innerHTML = "" + num;
+    }
+  }
 }
 
 function plusSecondPoint(id){
-  console.log("hello. i work :)");
-  var pointReader = document.getElementById(id);
-  numTwo = numTwo + 1;
-  pointReader.innerHTML = "-" + numTwo;
-  disliked.push(""+id);
-}
-
-function minusOnePoint(id){
-  var pointReader = document.getElementById(id).parentElement.getElementsByClassName("points");
-  console.log(pointReader);
-  num = num + 1;
-  pointReader.innerHTML = "-" + num;
-  // console.log("point subtracted :(");
+  if (id%2 == 1){
+    numTwo = numTwo + 1;
+    if (numTwo > 0){
+      pointReader = document.getElementById(id).innerHTML = "+" + numTwo;
+    } else{
+      pointReader = document.getElementById(id).innerHTML = "" + numTwo;
+    }
+  } else{
+    console.log(id);
+    numTwo = numTwo - 1;
+    if (numTwo > 0){
+      pointReader = document.getElementById(id - 1).innerHTML = "+" + numTwo;
+    } else{
+      pointReader = document.getElementById(id - 1).innerHTML = "" + numTwo;
+    }
+  }
 }
