@@ -125,12 +125,6 @@ body, html, #container {
   margin-right: auto;
 }
 
-#flex-container h1{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #top-tutors ul {
   columns: 3;
   list-style-type: none;
@@ -168,3 +162,4 @@ body, html, #container {
   border: 1px solid black;
   box-sizing: border-box;
 }
+
