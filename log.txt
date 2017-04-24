@@ -106,5 +106,18 @@ Tasks of today:
 
 Kyle: CSS for home page
 Corn: HTML for subject page 
-Angela: fixed merge conflicts | JS for question page
+Angela: fix merge conflicts | JS for question page
 Gwen: CSS for question page
+
+=====================================
+=====================================
+
+/// Log 8 (4/21/17) \\\
+Corn and Kyle were trying to do CSS for the subject page and had trouble aligning questions. Gwen also worked on CSS for the question pages. Angela was able to resolve merge conflicts and update the master branch. 
+
+Tasks of today:
+| work on js for question page | work on css for question pages | work on CSS for subject page | fix merge conflicts |
+
+Kyle and Corn: CSS for subject page
+Angela: fix merge conflicts | JS for question page
+Gwen: CSS for questions pages
