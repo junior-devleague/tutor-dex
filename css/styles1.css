@@ -86,7 +86,7 @@ body, html, #container {
   text-align: center;
   display: flex;
   flex-direction: column;
-  background-color: green;
+  background-color: seagreen;
 }
 #question-header {
   color: #4A4A4A;
@@ -117,11 +117,17 @@ body, html, #container {
   text-align: center;
   display: flex;
   flex-direction: column;
-  background-color: red;
+  background-color: darkblue;
 }
 #tutors-header {
   color: #4A4A4A;
   text-align: left;
+  margin-right: auto;
+}
+
+#flex-container h1{
+  display: block;
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -133,7 +139,7 @@ body, html, #container {
 }
 
 #top-tutors li {
-    color: #4A4A4A;
+  color: #4A4A4A;
   width: 300px;
   display: inline-block;
   padding-bottom: 10px;
@@ -142,10 +148,11 @@ body, html, #container {
 .flex-container {
   display: -webkit-flex;
   display: flex;
-  width: 30%;
+  width: 80%;
   height: 60px;
   background-color: #EDEDED;
   color: #838383;
+  text-align: center;
 }
 
 .flex-container h1 {
@@ -155,7 +162,9 @@ body, html, #container {
 .flex-item {
   background-color: #8AE8A1;
   color: white;
-  width: 30%;
+  width: 40%;
   height: 60px;
   margin-left: auto;
+  border: 1px solid black;
+  box-sizing: border-box;
 }
