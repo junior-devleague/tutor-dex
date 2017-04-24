@@ -1,3 +1,161 @@
-body{
-  background-color: blue;
+body, html, #container {
+  height: 100%;
+  font-family: 'Bitter', serif;
+}
+#navbar {
+  /*top bar, says TutorDex on the left */
+  overflow: hidden;
+  background-color: #333;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+}
+#navbar a {
+  /*TutorDex (navbar) */
+  float: left;
+  font-size: 20px;
+  color: #8AE8A1;
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'Exo', sans-serif;
+}
+#container {
+  /* contains top and bottom id, don't change */
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+#top {
+  /* top half of the page, includes navbar, input, select, and top button */
+  height: 40%;
+  width: 100%;
+  background-color: #4A4A4A;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+#subject-name {
+  /* JAVASCRIPT */
+  color: white;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+#search-box input {
+  /*search box */
+  height: 35px;
+  width: 450px;
+  font-family: 'Bitter', serif;
+}
+#search-box input[type="text"] {
+  /* what the user types in the search box */
+  font-family: 'Bitter', serif;
+  font-size: 15px;
+}
+#search-box input-placeholder {
+  /*  placeholder for the search box */
+  color: #90EE90;
+  font-family: 'Bitter', serif;
+}
+#ask-us button {
+  /* "ASK US" button */
+  background-color: #8AE8A1;
+  border-radius: 6px;
+  border-style: none;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+#top-middle {
+  /* top half of the middle portion of the whole subject page, includes top questions  */
+  height: 40%;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+}
+#question-header {
+  color: #4A4A4A;
+  text-align: left;
+  margin-right: auto;
+}
+#top-questions li {
+  color: #4A4A4A;
+  width: 300px;
+  display: inline-block;
+  padding-bottom: 10px;
+  text-align: left;
+}
+#top-questions ul {
+  columns: 3;
+  list-style-type: none;
+  overflow: auto;
+  margin-right: auto;
+}
+#top-questions a {
+  text-decoration: none;
+  color: #4A4A4A;
+}
+#bottom-middle {
+  height: 60%;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}
+#tutors-header {
+  color: #4A4A4A;
+  text-align: left;
+  margin-right: auto;
+}
+
+#top-tutors ul {
+  columns: 3;
+  list-style-type: none;
+  overflow: auto;
+  margin-right: auto;
+}
+
+#top-tutors li {
+    color: #4A4A4A;
+  width: 300px;
+  display: inline-block;
+  padding-bottom: 10px;
+  text-align: left;
+}
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  width: 30%;
+  height: 60px;
+  background-color: #EDEDED;
+  color: #838383;
+}
+
+.flex-container h1 {
+  font-size: 15px;
+
+}
+.flex-item {
+  background-color: #8AE8A1;
+  color: white;
+  width: 30%;
+  height: 60px;
+  margin-left: auto;
 }
