@@ -24,6 +24,13 @@ idea 2:
   subtracting:function subtracts 1 to target like button (so that the number is in one place)
 */
 
+/*
+ideas for home page:
+idea 1: 
+  if question from one of the views is input in the form, redirect to that page on click ("ASK US")
+  i.e. function that is invoked on click of button, checks if input has question, if true then redirect
+*/
+
 function plusOnePoint(id){
   console.log("hello. i work :)");
   var pointReader = document.getElementById(id);
