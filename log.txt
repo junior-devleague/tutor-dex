@@ -124,6 +124,7 @@ Gwen: CSS for questions pages
 
 =====================================
 =====================================
+
 /// Log 9 (4/24/17) \\\
 Corn and Kyle are almost done with the "Top Tutors" section on the subject page. Gwen worked on CSS (question page)and changed some classes so elements could be aligned better. Angela worked on JS and was able to get adding and subtracting from one button to work.
 
@@ -132,4 +133,17 @@ Tasks of today:
 
 Kyle and Corn: CSS for subject page (complete Top Tutors and work on list of subjects)
 Angela: fix merge conflicts | JS for question page (change button color when points are negative)
+Gwen: CSS for questions pages 
+
+=====================================
+=====================================
+
+/// Log 10 (4/26/17) \\\
+Corn and Kyle are trying to figure out how to position the names in their divs for the subject page. Everyone doing CSS is going to change their positioning so that it utilizes flex box. Angela is going to work on JS to change button colors.
+
+Tasks of today:
+| work on js for question page | work on css for question pages | work on CSS for subject page |
+
+Kyle and Corn: CSS for subject page (complete Top Tutors and work on list of subjects)
+Angela: JS for question page (change button color when points are negative)
 Gwen: CSS for questions pages 
