@@ -7,7 +7,6 @@ body, html, #container {
   overflow: hidden;
   background-color: #333;
 }
-
 #navbar a {
   /*TutorDex (navbar) */
   float: left;
@@ -83,13 +82,16 @@ body, html, #container {
   text-align: center;
   display: flex;
   flex-direction: column;
+  background: yellow
 }
 #question-header {
+  /* top questions */
   color: #4A4A4A;
   text-align: left;
   margin-right: auto;
 }
 #top-questions li {
+  /* questions list items */
   color: #4A4A4A;
   width: 300px;
   display: inline-block;
@@ -97,37 +99,42 @@ body, html, #container {
   text-align: left;
 }
 #top-questions ul {
+  /* questions list */
   columns: 3;
   list-style-type: none;
   overflow: auto;
   margin-right: auto;
 }
 #top-questions a {
+  /* question href */
   text-decoration: none;
   color: #4A4A4A;
 }
 #bottom-middle {
+  /* top tutors */
   height: 35%;
   width: 80%;
   margin: auto;
   text-align: center;
   display: flex;
   flex-direction: column;
+  background-color: orange;
 }
 #tutors-header {
+  /* top tutors header */
   color: #4A4A4A;
   text-align: left;
   margin-right: auto;
 }
-
 #top-tutors ul {
+  /*  top tutors list */
   columns: 3;
   list-style-type: none;
   overflow: auto;
   margin-right: auto;
 }
-
 #top-tutors li {
+  /* top tutors list item */
   color: #4A4A4A;
   width: 300px;
   display: inline-block;
@@ -135,6 +142,7 @@ body, html, #container {
   text-align: left;
 }
 .flex-container {
+  /* flex container for tutors */
   display: -webkit-flex;
   display: flex;
   width: 80%;
@@ -143,12 +151,12 @@ body, html, #container {
   color: #838383;
   text-align: center;
 }
-
 .flex-container p {
+  /* top tutor names */
   margin-left: 20px;
 }
-
 .flex-item {
+  /* points box */
   background-color: #8AE8A1;
   color: white;
   width: 40%;
@@ -156,46 +164,101 @@ body, html, #container {
   margin-left: auto;
   border: 1px solid black;
   box-sizing: border-box;
-    display: flex;
+  display: flex;
   flex-direction: column;
 }
-
 .flex-item h1 {
+  /* points */
   font-size: 10px;
 }
-
 .flex-item h2 {
+  /* points number */
   font-size: 16px;
   margin-top: -8px;
 }
-
 #bottom {
+  /* top subjects */
   height: 35%;
   width: 80%;
   margin: auto;
   text-align: center;
   display: flex;
   flex-direction: column;
-}
+  background-color: maroon;
 
+}
 #bottom h1 {
+  /* top subjects header */
   color: #4A4A4A;
   text-align: left;
   margin-right: auto;
 }
-
 #subjects-header li {
+  /* subjects list item */
   color: #696969;
   padding: 10px;
   width: 200px;
   text-align: left;
 }
-
 #subjects-header a {
+  /* subjects item href */
   text-decoration: none;
 }
-
 #subjects-header ul {
+  /* subjects list */
   column-count: 3;
   list-style-type: none;
+}
+
+
+/* responsive stuff */
+@media only screen and (max-width: 1000px) {
+    #question-header {
+      font-size: 8px;
+    }
+    #top-middle {
+        background-color: green;
+        font-size: 12px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #tutors-header {
+      font-size: 8px;
+    }
+    #bottom-middle {
+        background-color: blue;
+        width: 90%;
+    }
+    .flex-container {
+        width: 50%;
+    }
+    .flex-container p {
+      font-size: 12px;
+      margin-left: 10px;
+    }
+    .flex-item {
+      width: 40%;
+    }
+    .flex-item h1 {
+      font-size: 8px;
+    }
+    .flex-item h2 {
+      font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #top-middle {
+        background-color: seagreen;
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    #bottom {
+        background-color: lightblue;
+    }
 }
