@@ -145,7 +145,7 @@ body, html, #container {
 }
 
 .flex-container p {
-  margin: 0 auto;
+  margin-left: 20px;
 }
 
 .flex-item {
