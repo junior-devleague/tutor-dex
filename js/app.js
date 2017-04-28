@@ -59,6 +59,10 @@ function plusOnePoint(id){
     //adds points
       pointReader.innerHTML = "+" + num;
       pointReader.style.backgroundColor = "#8AE8A1";
+    } else if (num == 0){
+      //change button color to gray
+      pointReader.style.backgroundColor = "#E6E7F0";
+      pointReader.innerHTML = "" + num;
     } else{
       pointReader.innerHTML = "" + num;
       pointReader.style.backgroundColor = "#C23B22";
@@ -85,34 +89,40 @@ function plusOnePoint(id){
 }
 
 function plusSecondPoint(id){
-  var pointReader = document.getElementById(id);
+ var pointReader = document.getElementById(id);
+  
   //checks if button id is odd or even (odd = add point | even = subtract point)
-  //button id is POSITIVE
   if (id%2 == 1){
+  //button id is POSITIVE
     numTwo = numTwo + 1;
     if (numTwo > 0){
     //adds points
-      pointReader = document.getElementById(id).innerHTML = "+" + numTwo;
+      pointReader.innerHTML = "+" + numTwo;
+      pointReader.style.backgroundColor = "#8AE8A1";
+    } else if (numTwo == 0){
+      //change button color to gray
+      pointReader.style.backgroundColor = "#E6E7F0";
+      pointReader.innerHTML = "" + numTwo;
     } else{
-      pointReader = document.getElementById(id).innerHTML = "" + numTwo;
+      pointReader.innerHTML = "" + numTwo;
+      pointReader.style.backgroundColor = "#C23B22";
     }
   } else{
     //button id is NEGATIVE
+    //pointReader now targets previous button (w/ points)
+    pointReader = document.getElementById(id - 1);
     console.log(id);
     //subtracts points
     numTwo = numTwo - 1;
     if (numTwo > 0){
-      pointReader = document.getElementById(id - 1).innerHTML = "+" + numTwo;
+      pointReader.innerHTML = "+" + numTwo;
     } else if (numTwo == 0){
-      pointReader = document.getElementById(id - 1);
-      pointReader.innerHTML = "" + numTwo;
       //change button color to gray
       pointReader.style.backgroundColor = "#E6E7F0";
-    } else{
-      pointReader = document.getElementById(id - 1);
       pointReader.innerHTML = "" + numTwo;
+    } else{
       //change button color to red
       pointReader.style.backgroundColor = "#C23B22";
+      pointReader.innerHTML = "" + numTwo;
     }
-  }
-}
+  }}
