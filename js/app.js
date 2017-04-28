@@ -2,6 +2,24 @@
 ***********************************HOME JS*********************************************
 */
 
+/*
+input has class name "subject"
+  input name is "search"
+*/
+
+/* PSEUDO CODE
+-store questions from 3 views in an array or object
+-assign onclick function to "ASK US"
+-when clicked, check value of form (the input box)
+-if it matches one of the questions, redirect to corresponding page using | window.location = "link.com" |
+-use onsubmit attribute or current button
+*/
+
+var viewQuestions = {
+  question1: "WHAT IS 1+1?",
+  question2: "WHAT IS THE DIFFERENCE BETWEEN SIMILE AND METAPHOR?",
+  question3: "Why does the earth orbit the sun?"
+}
 
 /*
 ***********************************QUESTION JS*********************************************
