@@ -152,11 +152,11 @@ Gwen: CSS for questions pages
 =====================================
 
 /// Log 11 (4/28/17) \\\
-Corn and Kyle are working on the "Top Tutors" section on the subject page. Everyone doing CSS is going to change their positioning so that it utilizes flex box. Angela is going to work on JS to change button colors.
+Corn and Kyle are working on the "Top Tutors" section on the subject page and making their page responsive. Everyone doing CSS is going to change their positioning so that it utilizes flex box. Angela is going to work on JS to change button colors.
 
 Tasks of today:
 | work on js for question page | work on css for question pages | work on CSS for subject page |
 
-Kyle and Corn: CSS for subject page (complete Top Tutors and work on list of subjects)
+Kyle and Corn: CSS for subject page (complete Top Tutors and work on list of subjects) | make page responsive
 Angela: JS for question page (change button color when points are negative)
 Gwen: CSS for questions pages (changing to flex box)
