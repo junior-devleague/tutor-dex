@@ -193,18 +193,18 @@ body, html, #container {
   text-align: left;
   margin-right: auto;
 }
-#subjects-header li {
+#subjects li {
   /* subjects list item */
   color: #696969;
   padding: 10px;
   width: 200px;
   text-align: left;
 }
-#subjects-header a {
+#subjects a {
   /* subjects item href */
   text-decoration: none;
 }
-#subjects-header ul {
+#subjects ul {
   /* subjects list */
   column-count: 3;
   list-style-type: none;
@@ -212,27 +212,27 @@ body, html, #container {
 
 
 /* responsive stuff */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {/*top questions*/
     #question-header {
       font-size: 8px;
     }
     #top-middle {
         background-color: green;
         font-size: 12px;
-        width: 90%;
+        width: 100%;
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {/*top tutors */
     #tutors-header {
       font-size: 8px;
     }
     #bottom-middle {
         background-color: blue;
-        width: 90%;
+        width: 100%;
     }
     .flex-container {
-        width: 50%;
+      width: 60%;
     }
     .flex-container p {
       font-size: 12px;
@@ -249,7 +249,7 @@ body, html, #container {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) { 
     #top-middle {
         background-color: seagreen;
         font-size: 12px;
@@ -257,8 +257,15 @@ body, html, #container {
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) { /*top subjects */
+    #subjects-header {
+      font-size: 8px;
+    }
     #bottom {
         background-color: lightblue;
+        width: 100%;
+    }
+    #subjects {
+      font-size: 12px;
     }
 }
