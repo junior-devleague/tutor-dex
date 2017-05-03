@@ -100,7 +100,7 @@ body, html, #container {
 }
 #top-questions ul {
   /* questions list */
-  columns: 3;
+  column-count: 3;
   list-style-type: none;
   overflow: auto;
   margin-right: auto;
@@ -212,7 +212,7 @@ body, html, #container {
 
 
 /* responsive stuff */
-@media only screen and (max-width: 1000px) {/*top questions*/
+@media only screen and (max-width: 800px) {/*top questions*/
     #question-header {
       font-size: 8px;
     }
@@ -223,7 +223,7 @@ body, html, #container {
     }
 }
 
-@media only screen and (max-width: 1000px) {/*top tutors */
+@media only screen and (max-width: 800px) {/*top tutors */
     #tutors-header {
       font-size: 8px;
     }
@@ -257,7 +257,7 @@ body, html, #container {
 }
 
 
-@media only screen and (max-width: 1000px) { /*top subjects */
+@media only screen and (max-width: 800px) { /*top subjects */
     #subjects-header {
       font-size: 8px;
     }
