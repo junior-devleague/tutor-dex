@@ -15,10 +15,47 @@ input has class name "subject"
 -use onsubmit attribute or current button
 */
 
-var viewQuestions = {
-  question1: "WHAT IS 1+1?",
-  question2: "WHAT IS THE DIFFERENCE BETWEEN SIMILE AND METAPHOR?",
-  question3: "Why does the earth orbit the sun?"
+var viewQuestions = ["WHAT IS 1+1?","WHAT IS THE DIFFERENCE BETWEEN SIMILE AND METAPHOR?","Why does the earth orbit the sun?"];
+
+var questions = [
+  {
+    questionNum: 1,
+    question: "WHAT IS 1+1?",
+    href: "html/questionp1.html"
+  },
+  {
+    questionNum: 2,
+    question: "WHAT IS THE DIFFERENCE BETWEEN SIMILE AND METAPHOR?",
+    href: "html/questionp2.html"
+  },
+  {
+    questionNum: 3, 
+    question:"Why does the earth orbit the sun?",
+    href: "html/questionp3.html"
+  }
+];
+
+function redirect(){
+  console.log("hello");
+  //check/validate form
+  //forms[nameOfForm][nameOfInput] OR get input's id
+  var formSays = document.getElementById("aQuestion").value;
+  //redirects page
+  if (formSays == "what"){
+    //PLACEHOLDER
+    window.location = "html/questionp1.html";
+  }
+  for (var i = 0; i < questions.length; i++){
+    for (var key in questions){
+      console.log(key);
+      //questions[key] shows whole object
+      console.log(questions[key]);
+      if (questions[key].question == formSays){
+        console.log("redirecting...");
+        window.location = "html/questionp" + i + ".html";
+      } 
+    }
+  }
 }
 
 /*
