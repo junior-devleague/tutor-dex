@@ -34,33 +34,53 @@ html,body {
    margin-top:0%;*/
   }
  
+  .ques-and-title-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 500px;
+  }
   .question-header h3{
    display: flex;
    justify-content: flex-start;
-   align-items: flex-start;
    background-color: red;
   }
   .question-header{
     margin-top: 0%;
-    background-color:lightpink;
+    background-color:#4A4A4A;
     padding:40px 15px 150px 130px;
     color: #8AE8A1;
     font-family: 'Raleway', sans-serif;
   }
   
   .question h2{
-    padding-top: 50px;
+    padding-top: 13%;
+  }
+  .question{
+   display: flex;
+   justify-content: center;
+
   }
 
-  .question,{
-   display: flex;
-   justify-content: flex-start;
-   font-size: 25px
+  .question{
+   font-size: 25px;
    color: white;
    font-family: 'Raleway', sans-serif;
   }
 
-  .question2 h2{
+  .asker-info{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   padding:10px 1px 10px 0px;
+   color:white; 
+  }
+  .asker-info{
+    margin-top: -5%;
+    padding-left: 30%;
+    width: 500px;
+  }
+  /*.question2 h2{
    margin-top: -15%;
    margin-left: 24%;
    font-size: 35px;
@@ -75,73 +95,68 @@ html,body {
    color: white;
    font-family: 'Raleway', sans-serif;
   }
- 
-  .asker-info{
-   display: flex;
-   justify-content: flex-start;
-   justify-content: space-around;
-   padding:10px 1px;
-   color:white; 
-   background-color: red;
-  }
-
   .asker-info2{
    margin-left: 21%;
    color:white;
    display: block 
   }
-  .asker-info2{
+  .asker-info2, .asker-info3{
    font-family: 'Bitter', serif;
   }
   .asker-info3{
    margin-left: 27.5%;
    color:white;
    display: block 
-  }
-  .asker-info3{
-   font-family: 'Bitter', serif;
-  }
- 
+  }*/
+
   .answer-header{
-    margin-left: 12%;
-    margin-top: 60px;
+    display:flex;
+    justify-content: flex-start; 
   }
- 
-  .individual-answer{
-   height:150px;
-   width: 653px;
-   background-color:#EDEDED;
-   margin-left: 23%;
-   margin-bottom: 15px;
-   padding: 10px 10px;
+
+  div .answer-container .individual-answer{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 10px 2px 70px 30px;
+   width: 670px;
+   background-color:blue;
    font-size:18px;
    font-family: 'Bitter', serif;
- 
   }
- .name{
-     color: #8AE8A1;
- }
-  
+
   .answerer-info{
-     margin-left:21%;
-     margin-top:-70px;
-     font-size:18px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 11px 12px 7px;
+    font-size:18px;
   }
  
  .answerer-info .name{
      color:#8AE8A1;
+     padding-right: 20px;
+     padding-left: 35px;
  }
- 
+  .point-distribution{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 2px 0px 30px 1px;
+    width: 60px;
+  }
   .points{
+     display: flex;
+     justify-content: flex-start;
      background-color:#8AE8A1;
      height: 60px;
      width: 60px;
      border-radius: 500px;
-     margin-left: 15%;
   }
 
-  div .points {
-     margin-bottom: 0%;
+  .remove-points{
+    padding: 0px;
+    background-color: transparent;
+    width: 70px;
   }
  
   .related-things h2{
@@ -151,15 +166,14 @@ html,body {
      
   }
   
-  .related-things{
-     float:right;
+  div .related-things{
+     display: flex;
+     justify-content: flex-end;
      background-color:#4A4A4A;
      width:250px;
      height: auto;
      padding: 10px 10px 10px;
-     margin-right: 20px;
      color:white; 
-     margin-top: -52%;
   }
 
  a{
@@ -184,23 +198,10 @@ html,body {
   }
 
 
-
-.question{
-    margin-left: 40%;
-    font-size: 25px;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-}
 .question h2{
     margin-top: -25%;
 }
 
-.asker-info{
-    margin-left: 37.5%;
-    color:white;
-     font-family: 'Bitter', serif;
-
-}
 
 .answer-header{
     margin-left: 11%;
@@ -208,16 +209,11 @@ html,body {
     font-family: 'Raleway', sans-serif;
 }
 
-.individual-answer{
-    height:150px;
-    width: 653px;
+/*.individual-answer{
     background-color:#EDEDED;
     margin-left: 23%;
-    margin-bottom: 15px;
-    margin-top: 70px;
-    padding: 10px 10px 10px 10px;
     font-size:18px;
-    font-family: 'Bitter', serif;
+    font-family: 'Bitter', serif;*/
 }
 p a{
     color: #8AE8A1;
@@ -233,7 +229,7 @@ p a{
   color:#8AE8A1;
 }
 
-.points{
+/*.points{
     background-color:#8AE8A1;
     height: 60px;
     width: 60px;
@@ -241,7 +237,7 @@ p a{
     margin-left: 60px;
     float:left;
     margin-top: 50px
-}
+}*/
 
 .related-things h2{
     font-size:20px;
@@ -298,3 +294,4 @@ input{
 }
 
 /*END OF QUESTION PAGE*/
+
