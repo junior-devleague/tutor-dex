@@ -34,33 +34,53 @@ html,body {
    margin-top:0%;*/
   }
  
+  .ques-and-title-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 500px;
+  }
   .question-header h3{
    display: flex;
    justify-content: flex-start;
-   align-items: flex-start;
    background-color: red;
   }
   .question-header{
     margin-top: 0%;
-    background-color:lightpink;
+    background-color:#4A4A4A;
     padding:40px 15px 150px 130px;
     color: #8AE8A1;
     font-family: 'Raleway', sans-serif;
   }
   
   .question h2{
-    padding-top: 50px;
+    padding-top: 13%;
+  }
+  .question{
+   display: flex;
+   justify-content: center;
+
   }
 
-  .question,{
-   display: flex;
-   justify-content: flex-start;
-   font-size: 25px
+  .question{
+   font-size: 25px;
    color: white;
    font-family: 'Raleway', sans-serif;
   }
 
-  .question2 h2{
+  .asker-info{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   padding:10px 1px 10px 0px;
+   color:white; 
+  }
+  .asker-info{
+    margin-top: -5%;
+    padding-left: 30%;
+    width: 500px;
+  }
+  /*.question2 h2{
    margin-top: -15%;
    margin-left: 24%;
    font-size: 35px;
@@ -75,16 +95,6 @@ html,body {
    color: white;
    font-family: 'Raleway', sans-serif;
   }
- 
-  .asker-info{
-   display: flex;
-   justify-content: flex-start;
-   justify-content: space-around;
-   padding:10px 1px 10px 0px;
-   color:white; 
-   background-color: red;
-  }
-
   .asker-info2{
    margin-left: 21%;
    color:white;
@@ -97,23 +107,22 @@ html,body {
    margin-left: 27.5%;
    color:white;
    display: block 
-  }
+  }*/
 
   .answer-header{
     display:flex;
     justify-content: flex-start; 
   }
 
-  .answer-container .individual-answer{
+  div .answer-container .individual-answer{
    display: flex;
-   justify-content: flex-start;
    flex-direction: column;
+   justify-content: center;
    padding: 10px 2px 70px 30px;
    width: 670px;
    background-color:blue;
    font-size:18px;
    font-family: 'Bitter', serif;
-   margin-left: 242px;
   }
 
   .answerer-info{
@@ -125,20 +134,23 @@ html,body {
  
  .answerer-info .name{
      color:#8AE8A1;
-     padding-right: 20px
+     padding-right: 20px;
+     padding-left: 35px;
  }
   .point-distribution{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 30px 30px;
+    padding: 2px 0px 30px 1px;
+    width: 60px;
   }
-  .point-holder{
+  .points{
+     display: flex;
+     justify-content: flex-start;
      background-color:#8AE8A1;
      height: 60px;
      width: 60px;
      border-radius: 500px;
-     margin-left: 10%;
   }
 
   .remove-points{
@@ -154,15 +166,14 @@ html,body {
      
   }
   
-  .related-things{
-     float:right;
+  div .related-things{
+     display: flex;
+     justify-content: flex-end;
      background-color:#4A4A4A;
      width:250px;
      height: auto;
      padding: 10px 10px 10px;
-     margin-right: 20px;
      color:white; 
-     margin-top: -52%;
   }
 
  a{
@@ -186,22 +197,11 @@ html,body {
     font-family: 'Bitter', serif;
   }
 
-.question{
-    margin-left: 40%;
-    font-size: 25px;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-}
+
 .question h2{
     margin-top: -25%;
 }
 
-.asker-info{
-    margin-left: 37.5%;
-    color:white;
-     font-family: 'Bitter', serif;
-
-}
 
 .answer-header{
     margin-left: 11%;
@@ -294,3 +294,4 @@ input{
 }
 
 /*END OF QUESTION PAGE*/
+
