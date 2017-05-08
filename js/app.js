@@ -45,6 +45,7 @@ function redirect(){
     //PLACEHOLDER
     window.location = "html/questionp1.html";
   }
+
   for (var i = 0; i < questions.length; i++){
     for (var key in questions){
       console.log(key);
@@ -52,7 +53,7 @@ function redirect(){
       console.log(questions[key]);
       if (questions[key].question == formSays){
         console.log("redirecting...");
-        window.location = "html/questionp" + i + ".html";
+        window.location = "html/questionp" + questions[key].questionNum + ".html";
       } 
     }
   }
