@@ -33,8 +33,10 @@
 		<div class="answer-container">
 			<div class="answer">
 				<div class="point-distribution">
-					<button class="points" id="1" onclick="plusOnePoint(this.id)"></button>
-					<button class="points" id="2" onclick="plusOnePoint(this.id)"></button>
+					<button class="points" id="1" onclick="plusOnePoint(this.id)">0</button>
+					<button class="points" id="2" onclick="plusOnePoint(this.id)">
+						REMOVE POINT
+					</button>
 				</div>
 				<div class="individual-answer">
 					<p>
@@ -57,8 +59,10 @@
 			</div>
 			<div class="answer">
 				<div>
-					<button class="points" id="3" onclick="plusSecondPoint(this.id)"></button>
-					<button class="points" id="4" onclick="plusSecondPoint(this.id)"></button>
+ 					<button class="points" class="point-holder" id="3" onclick="plusSecondPoint(this.id)">0</button>
+					<button class="points" class="remove-points" id="4" onclick="plusSecondPoint(this.id)">
+						REMOVE POINT
+					</button>
 				</div>
 				<div class="individual-answer">
 					<p>
