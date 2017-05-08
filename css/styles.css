@@ -114,20 +114,22 @@ html,body {
     justify-content: flex-start; 
   }
 
+  .answer-and-nav-container, input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    width: auto;
+  }
+
   div .answer-container .individual-answer{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
    padding: 10px 2px 70px 30px;
    width: 670px;
    background-color:blue;
    font-size:18px;
    font-family: 'Bitter', serif;
   }
-
   .answerer-info{
-    display: flex;
-    justify-content: flex-start;
     padding: 10px 11px 12px 7px;
     font-size:18px;
   }
@@ -137,14 +139,21 @@ html,body {
      padding-right: 20px;
      padding-left: 35px;
  }
+ .answer{
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 125px;
+
+ }
   .point-distribution{
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
-    padding: 2px 0px 30px 1px;
+    align-content: flex-start;
+    justify-content: space-around;
+    padding: 2px 40px 30px 1px;
     width: 60px;
   }
-  .points{
+  .points .point-holder{
      display: flex;
      justify-content: flex-start;
      background-color:#8AE8A1;
@@ -168,11 +177,12 @@ html,body {
   
   div .related-things{
      display: flex;
-     justify-content: flex-end;
+     justify-content: space-between;
      background-color:#4A4A4A;
      width:250px;
      height: auto;
      padding: 10px 10px 10px;
+
      color:white; 
   }
 
@@ -247,14 +257,11 @@ p a{
 }
 
 .related-things{
-    float:right;
     background-color:#4A4A4A;
     width:250px;
     height: auto;
     padding: 10px 10px 10px;
-    margin-right: 20px;
     color:white; 
-    margin-top: -47.6%;
 }
 
 .related-questions li a, .related-topics li a{
@@ -274,11 +281,18 @@ li{
     list-style: none;
 }
 
+ .submission-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: red;
+    height: 300px;
+}
+
 input{
     height: 100px;
     width:670px;
-    margin-top: 20px;
-    margin-left: 23%
 }
 
 .submit-button{
@@ -286,12 +300,9 @@ input{
     color: white;
     height: 50px;
     padding: 10px 40px;
-    margin-top:20px;
-    margin-left:59.3%;
     border-radius: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
 }
 
 /*END OF QUESTION PAGE*/
-
