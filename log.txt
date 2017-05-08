@@ -199,3 +199,16 @@ Tasks of today:
 Kyle and Corn: CSS for subject page (make page responsive)
 Angela: JS for home page (try to improve)
 Gwen: CSS for questions (flex box and responsive)
+
+=====================================
+=====================================
+
+/// Log 15 (5/8/17) \\\
+Corn and Kyle are continuing to work on making the subject page responsive. Gwen is making the question pages flex-box friendly and responsive. Angela is going to work on home page JS to redirect user when a certain question is typed, almost done.
+
+Tasks of today:
+| work on CSS for subject page | work on css for question pages | work on JS for home page | 
+
+Kyle and Corn: CSS for subject page (make page responsive)
+Angela: JS for home page (try to improve)
+Gwen: CSS for questions (flex box and responsive)
