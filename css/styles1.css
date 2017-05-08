@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 body, html, #container {
   height: 100%;
   font-family: 'Bitter', serif;
@@ -28,7 +27,8 @@ body, html, #container {
 }
 #top {
   /* top half of the page, includes navbar, input, select, and top button */
-  height: 40%;
+  padding-top: 100px;
+  padding-bottom: 100px;
   width: 100%;
   background-color: #4A4A4A;
   margin: auto;
@@ -104,8 +104,6 @@ body, html, #container {
   /* questions list */
   column-count: 3;
   list-style-type: none;
-  overflow: auto;
-  margin-right: auto;
 }
 #top-questions a {
   /* question href */
@@ -138,8 +136,6 @@ body, html, #container {
 #top-tutors li {
   /* top tutors list item */
   color: #4A4A4A;
-  width: 300px;
-  display: inline-block;
   padding-bottom: 10px;
   text-align: left;
 }
@@ -155,8 +151,12 @@ body, html, #container {
 }
 .flex-container p {
   /* top tutor names */
-  margin-left: 20px;
+  width: 200px;
+  text-align: center;
+  font-size: 1 10px;
 }
+
+
 .flex-item {
   /* points box */
   background-color: #8AE8A1;
@@ -168,6 +168,7 @@ body, html, #container {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 .flex-item h1 {
   /* points */
@@ -213,8 +214,8 @@ body, html, #container {
 }
 
 
-/* responsive stuff */
-@media only screen and (max-width: 800px) {/*top questions*/
+/* responsive stuff 
+@media only screen and (max-width: 800px) {
     #question-header {
       font-size: 8px;
     }
@@ -225,7 +226,7 @@ body, html, #container {
     }
 }
 
-@media only screen and (max-width: 800px) {/*top tutors */
+@media only screen and (max-width: 800px) {
     #tutors-header {
       font-size: 8px;
     }
@@ -259,7 +260,7 @@ body, html, #container {
 }
 
 
-@media only screen and (max-width: 800px) { /*top subjects */
+@media only screen and (max-width: 800px) { 
     #subjects-header {
       font-size: 8px;
     }
@@ -271,4 +272,8 @@ body, html, #container {
       font-size: 12px;
     }
 }
+<<<<<<< HEAD
 >>>>>>> cff9c3cd839fa31321d09a2100575a57766c53e7
+=======
+*/
+
