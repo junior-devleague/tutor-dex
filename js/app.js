@@ -2,6 +2,62 @@
 ***********************************HOME JS*********************************************
 */
 
+/*
+input has class name "subject"
+  input name is "search"
+*/
+
+/* PSEUDO CODE
+-store questions from 3 views in an array or object
+-assign onclick function to "ASK US"
+-when clicked, check value of form (the input box)
+-if it matches one of the questions, redirect to corresponding page using | window.location = "link.com" |
+-use onsubmit attribute or current button
+*/
+
+var viewQuestions = ["WHAT IS 1+1?","WHAT IS THE DIFFERENCE BETWEEN SIMILE AND METAPHOR?","Why does the earth orbit the sun?"];
+
+var questions = [
+  {
+    questionNum: 1,
+    question: "WHAT IS 1+1?",
+    href: "html/questionp1.html"
+  },
+  {
+    questionNum: 2,
+    question: "WHAT IS THE DIFFERENCE BETWEEN SIMILE AND METAPHOR?",
+    href: "html/questionp2.html"
+  },
+  {
+    questionNum: 3, 
+    question:"Why does the earth orbit the sun?",
+    href: "html/questionp3.html"
+  }
+];
+
+function redirect(){
+  console.log("hello");
+  //check/validate form
+  //forms[nameOfForm][nameOfInput] OR get input's id
+  var formSays = document.getElementById("aQuestion").value;
+  //redirects page
+  if (formSays == "what"){
+    //PLACEHOLDER
+    window.location = "html/questionp1.html";
+  }
+
+  for (var i = 0; i < questions.length; i++){
+    for (var key in questions){
+      console.log(key);
+      //questions[key] shows whole object
+      console.log(questions[key]);
+      if (questions[key].question == formSays){
+        console.log("redirecting...");
+        window.location = "html/questionp" + questions[key].questionNum + ".html";
+      } 
+    }
+  }
+}
 
 /*
 ***********************************QUESTION JS*********************************************
