@@ -59,6 +59,11 @@ function redirect(){
   }
 }
 
+
+function redirectToSubject(){
+  window.location = "html/subject.html";
+}
+
 /*
 ***********************************QUESTION JS*********************************************
 */
