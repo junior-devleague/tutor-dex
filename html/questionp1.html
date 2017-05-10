@@ -33,15 +33,17 @@
 		<div class="answer-container">
 			<div class="answer">
 				<div class="point-distribution">
-					<button class="points" id="likeKahauolopua" onclick="plusOnePoint()"></button>
-					<button class="points" id="dislikeKahauolopua" onclick="minusOnePoint()"></button>
+					<button class="points" id="1" onclick="plusOnePoint(this.id)">0</button>
+					<button class="points" id="2" onclick="plusOnePoint(this.id)">
+						REMOVE POINT
+					</button>
 				</div>
 				<div class="individual-answer">
 					<p>
 						The answer to your question is 3.
 					</p>
 					<p>
-						Check out this <a href="https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=google%20calculator&oq=google%20calc&aqs=chrome.1.69i57j0l5.5623j0j7">resource</a>
+						Check out this.id <a href="https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=google%20calculator&oq=google%20calc&aqs=chrome.1.69i57j0l5.5623j0j7">resource</a>
 					</p>
 				</div>
 				<div>
@@ -56,9 +58,11 @@
 				</div>
 			</div>
 			<div class="answer">
-				<div>
-					<button class="points" id="likeHarris" onclick="plusOnePoint(this.id)"></button>
-					<button class="points" id="dislikeHarris" onclick="minusOnePoint()"></button>
+				<div class="point-distribution">
+ 					<button class="points" class="point-holder" id="3" onclick="plusSecondPoint(this.id)">0</button>
+					<button class="points" class="remove-points" id="4" onclick="plusSecondPoint(this.id)">
+						REMOVE POINT
+					</button>
 				</div>
 				<div class="individual-answer">
 					<p>
