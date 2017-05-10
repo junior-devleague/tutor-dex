@@ -18,7 +18,7 @@
 				WHAT IS 1 + 1?
 			</h2>
 		</div>
-		<div>
+		<div class = "asker-info-container">
 			<ul class="asker-info">
 				<li>Ian A.</li>
 				<li>Subject:Math</li>
@@ -33,8 +33,8 @@
 		<div class="answer-container">
 			<div class="answer">
 				<div class="point-distribution">
-					<button class="points" id="1" onclick="plusOnePoint(this.id)">0</button>
-					<button class="points" id="2" onclick="plusOnePoint(this.id)">
+					<button class="points" class = "point-holder" id="1" onclick="plusOnePoint(this.id)">0</button>
+					<button class="points" class="remove-points" id="2" onclick="plusOnePoint(this.id)">
 						REMOVE POINT
 					</button>
 				</div>
@@ -43,7 +43,7 @@
 						The answer to your question is 3.
 					</p>
 					<p>
-						Check out this.id <a href="https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=google%20calculator&oq=google%20calc&aqs=chrome.1.69i57j0l5.5623j0j7">resource</a>
+						Check out this <a href="https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=google%20calculator&oq=google%20calc&aqs=chrome.1.69i57j0l5.5623j0j7">resource</a>
 					</p>
 				</div>
 				<div>
@@ -56,14 +56,14 @@
 						</li>
 					</ul>
 				</div>
-			</div>
+				</div>
 			<div class="answer">
-				<div>
+				<div class="point-distribution">
  					<button class="points" class="point-holder" id="3" onclick="plusSecondPoint(this.id)">0</button>
 					<button class="points" class="remove-points" id="4" onclick="plusSecondPoint(this.id)">
 						REMOVE POINT
 					</button>
-				</div>
+					</div>
 				<div class="individual-answer">
 					<p>
 						The answer is 1.
