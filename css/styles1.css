@@ -1,3 +1,279 @@
-body{
-  background-color: blue;
+
+body, html, #container {
+  height: 100%;
+  font-family: 'Bitter', serif;
 }
+#navbar {
+  /*top bar, says TutorDex on the left */
+  overflow: hidden;
+  background-color: #333;
+}
+#navbar a {
+  /*TutorDex (navbar) */
+  float: left;
+  font-size: 20px;
+  color: #8AE8A1;
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'Exo', sans-serif;
+}
+#container {
+  /* contains top and bottom id, don't change */
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+#top {
+  /* top half of the page, includes navbar, input, select, and top button */
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  background-color: #4A4A4A;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+#subject-name {
+  /* JAVASCRIPT */
+  color: white;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+#search-box input {
+  /*search box */
+  height: 35px;
+  width: 450px;
+  font-family: 'Bitter', serif;
+}
+#search-box input[type="text"] {
+  /* what the user types in the search box */
+  font-family: 'Bitter', serif;
+  font-size: 15px;
+}
+#search-box input-placeholder {
+  /*  placeholder for the search box */
+  color: #90EE90;
+  font-family: 'Bitter', serif;
+}
+#ask-us button {
+  /* "ASK US" button */
+  background-color: #8AE8A1;
+  border-radius: 6px;
+  border-style: none;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+#top-middle {
+  /* top half of the middle portion of the whole subject page, includes top questions  */
+  height: 25%;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: yellow
+}
+#question-header {
+  /* top questions */
+  color: #4A4A4A;
+  text-align: left;
+  margin-right: auto;
+}
+#top-questions li {
+  /* questions list items */
+  color: #4A4A4A;
+  width: 300px;
+  display: inline-block;
+  padding-bottom: 10px;
+  text-align: left;
+}
+#top-questions ul {
+  /* questions list */
+  column-count: 3;
+  list-style-type: none;
+}
+#top-questions a {
+  /* question href */
+  text-decoration: none;
+  color: #4A4A4A;
+}
+#bottom-middle {
+  /* top tutors */
+  height: 35%;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: orange;
+}
+#tutors-header {
+  /* top tutors header */
+  color: #4A4A4A;
+  text-align: left;
+  margin-right: auto;
+}
+#top-tutors ul {
+  /*  top tutors list */
+  columns: 3;
+  list-style-type: none;
+  overflow: auto;
+  margin-right: auto;
+}
+#top-tutors li {
+  /* top tutors list item */
+  color: #4A4A4A;
+  padding-bottom: 10px;
+  text-align: left;
+}
+.flex-container {
+  /* flex container for tutors */
+  display: -webkit-flex;
+  display: flex;
+  width: 80%;
+  height: 60px;
+  background-color: #EDEDED;
+  color: #838383;
+  text-align: center;
+}
+.flex-container p {
+  /* top tutor names */
+  width: 200px;
+  text-align: center;
+  font-size: 1 10px;
+}
+
+
+.flex-item {
+  /* points box */
+  background-color: #8AE8A1;
+  color: white;
+  width: 40%;
+  height: 60px;
+  margin-left: auto;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.flex-item h1 {
+  /* points */
+  font-size: 10px;
+}
+.flex-item h2 {
+  /* points number */
+  font-size: 16px;
+  margin-top: -8px;
+}
+#bottom {
+  /* top subjects */
+  height: 35%;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: maroon;
+
+}
+#bottom h1 {
+  /* top subjects header */
+  color: #4A4A4A;
+  text-align: left;
+  margin-right: auto;
+}
+#subjects li {
+  /* subjects list item */
+  color: #696969;
+  padding: 10px;
+  width: 200px;
+  text-align: left;
+}
+#subjects a {
+  /* subjects item href */
+  text-decoration: none;
+}
+#subjects ul {
+  /* subjects list */
+  column-count: 3;
+  list-style-type: none;
+}
+
+
+/* responsive stuff 
+@media only screen and (max-width: 800px) {
+    #question-header {
+      font-size: 8px;
+    }
+    #top-middle {
+        background-color: green;
+        font-size: 12px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #tutors-header {
+      font-size: 8px;
+    }
+    #bottom-middle {
+        background-color: blue;
+        width: 100%;
+    }
+    .flex-container {
+      width: 60%;
+    }
+    .flex-container p {
+      font-size: 12px;
+      margin-left: 10px;
+    }
+    .flex-item {
+      width: 40%;
+    }
+    .flex-item h1 {
+      font-size: 8px;
+    }
+    .flex-item h2 {
+      font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 500px) { 
+    #top-middle {
+        background-color: seagreen;
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width: 800px) { 
+    #subjects-header {
+      font-size: 8px;
+    }
+    #bottom {
+        background-color: lightblue;
+        width: 100%;
+    }
+    #subjects {
+      font-size: 12px;
+    }
+}
+<<<<<<< HEAD
+>>>>>>> cff9c3cd839fa31321d09a2100575a57766c53e7
+=======
+*/
+

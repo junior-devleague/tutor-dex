@@ -114,6 +114,7 @@ html,body {
     justify-content: flex-start; 
   }
 
+<<<<<<< HEAD
   .answer-and-nav-container, input{
     display: flex;
     flex-direction: row;
@@ -123,13 +124,26 @@ html,body {
   }
 
   div .answer-container .individual-answer{
+=======
+  div .answer-container .individual-answer{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+>>>>>>> d083361eee33f1f171d7e44f8e72d476dc449104
    padding: 10px 2px 70px 30px;
    width: 670px;
    background-color:blue;
    font-size:18px;
    font-family: 'Bitter', serif;
   }
+<<<<<<< HEAD
   .answerer-info{
+=======
+
+  .answerer-info{
+    display: flex;
+    justify-content: flex-start;
+>>>>>>> d083361eee33f1f171d7e44f8e72d476dc449104
     padding: 10px 11px 12px 7px;
     font-size:18px;
   }
@@ -139,6 +153,7 @@ html,body {
      padding-right: 20px;
      padding-left: 35px;
  }
+<<<<<<< HEAD
  .answer{
   display: flex;
   justify-content: flex-start;
@@ -154,6 +169,16 @@ html,body {
     width: 60px;
   }
   .points .point-holder{
+=======
+  .point-distribution{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 2px 0px 30px 1px;
+    width: 60px;
+  }
+  .points{
+>>>>>>> d083361eee33f1f171d7e44f8e72d476dc449104
      display: flex;
      justify-content: flex-start;
      background-color:#8AE8A1;
@@ -177,12 +202,19 @@ html,body {
   
   div .related-things{
      display: flex;
+<<<<<<< HEAD
      justify-content: space-between;
+=======
+     justify-content: flex-end;
+>>>>>>> d083361eee33f1f171d7e44f8e72d476dc449104
      background-color:#4A4A4A;
      width:250px;
      height: auto;
      padding: 10px 10px 10px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> d083361eee33f1f171d7e44f8e72d476dc449104
      color:white; 
   }
 
@@ -206,8 +238,13 @@ html,body {
     color:white;
     font-family: 'Bitter', serif;
   }
+<<<<<<< HEAD
 
 
+=======
+
+
+>>>>>>> d083361eee33f1f171d7e44f8e72d476dc449104
 .question h2{
     margin-top: -25%;
 }
@@ -262,6 +299,10 @@ p a{
     height: auto;
     padding: 10px 10px 10px;
     color:white; 
+<<<<<<< HEAD
+=======
+    margin-top: -47.6%;
+>>>>>>> d083361eee33f1f171d7e44f8e72d476dc449104
 }
 
 .related-questions li a, .related-topics li a{
@@ -300,14 +341,15 @@ input{
     color: white;
     height: 50px;
     padding: 10px 40px;
+<<<<<<< HEAD
+=======
+    margin-top:20px;
+    margin-left:59.3%;
+>>>>>>> d083361eee33f1f171d7e44f8e72d476dc449104
     border-radius: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
 }
 
 /*END OF QUESTION PAGE*/
-
-
-
-
 

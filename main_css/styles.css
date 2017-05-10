@@ -1,0 +1,217 @@
+body, html, #container {
+  height: 100%;
+  font-family: 'Bitter', serif;
+}
+#navbar {
+  /*top bar, says TutorDex on the left */
+  overflow: hidden;
+  background-color: #333;
+}
+#navbar a {
+  /*TutorDex (navbar) */
+  float: left;
+  font-size: 20px;
+  color: #8AE8A1;
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'Exo', sans-serif;
+}
+#container {
+  /* contains top and bottom id, don't change */
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+#top {
+  /* top half of the page, includes navbar, input, select, and top button */
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: #4A4A4A;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+#bottom {
+  /* bottom half of the page, includes searching, and top subjects */
+  width: 100%;
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+#top .item {
+  /* every item for the top half of the page, horizontally centered */
+  width: 20%;
+  margin: 10px;
+  text-align: center;
+  display: table;
+}
+#bottom .item {
+  /* every item for the bottom half of the page, */
+  width: 20%;
+  margin: 10px;
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+}
+.item h1 {
+  /* NEED ANSWERS? */
+  color: white;
+  font-size: 45px;
+  font-family: 'Raleway', sans-serif;
+}
+.item h2 {
+  /* FIND SOMETHING YOU NEED... */
+  margin-top: 100px;
+  color: #838383;
+  font-family: 'Raleway', sans-serif;
+}
+.item h3 {
+  /* TOP SUBJECTS */
+  color: #838383;
+  margin-top: 20%;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+}
+.item input {
+  /* ask a question search box */
+  height: 35px;
+  width: 450px;
+  font-family: 'Bitter', serif;
+}
+.item input[type="text"] {
+  /* what the user types in the search box */
+  font-family: 'Bitter', serif;
+  font-size: 15px;
+}
+.item input-placeholder {
+  /* "ask a question" placeholder for the search box */
+  color: #90EE90;
+  font-family: 'Bitter', serif;
+}
+.item select {
+  /* the dropdown for selecting subjects */
+  height: 35px;
+  width: 454px;
+  padding: 5px;
+  font-family: 'Bitter', serif;
+  font-size: 15px;
+  color: #696969;
+}
+.item option {
+  /* each individual option on the dropdown */
+  color: #696969;
+}
+.item option:first-child {
+  /* the first option of the select*/
+  color: #696969;
+}
+.item #pick-placeholder {
+  /* placeholder, a.k.a "pick a subject" */
+  color: #C7C7CD;
+}
+.item li {
+  /* list item values for top subject */
+  color: #696969;
+  padding: 10px;
+  width: 200px;
+  text-align: left;
+}
+.item a {
+  /*href for top subjects */
+  text-decoration: none;
+}
+.item ul {
+  /* ul for top subject, set to 3 columns */
+  column-count: 3;
+  list-style-type: none;
+}
+#top .item button {
+  /* "ASK US" button */
+  background-color: #8AE8A1;
+  border-radius: 6px;
+  border-style: none;
+  color: white;
+  padding: 20px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  cursor: pointer;
+}
+#bottom .item button {
+  /* "SEARCH" button */
+  margin-top: 20px;
+  background-color: #EDEDED;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4A4A4A;
+  color: #838383;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* responsive stuff */
+
+@media only screen and (max-width: 800px) {
+  .item ul {
+    column-count: 2;
+  }
+  .item li {
+    column-width: 100px;
+  }
+  #top .item button {
+    padding: 10px 100px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .item ul {
+    column-count: 1;
+  }
+  .item li {
+    column-width: 100px;
+  }
+  .item h3 {
+    text-align: left;
+  }
+  .item input {
+    width: 350px;
+  }
+  .item select {
+    width: 354px;
+  }
+  #top .item button {
+    padding: 10px 100px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .item li {
+    column-width: 100px;
+  }
+  .item h3 {
+    text-align: left;
+  }
+  .item input {
+    width: 250px;
+  }
+  .item select {
+    width: 254px;
+  }
+  #top .item button {
+    padding: 10px 100px;
+  }
+}
