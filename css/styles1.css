@@ -1,4 +1,3 @@
-
 body, html, #container {
   font-family: 'Bitter', serif;
 }
@@ -24,6 +23,12 @@ body, html, #container {
   left: 0;
   bottom: 0;
 }
+
+.columns {
+  /*list restrictor*/
+  column-width: 300px;
+}
+
 #top {
   /* top half of the page, includes navbar, input, select, and top button */
   padding-top: 100px;
@@ -39,6 +44,7 @@ body, html, #container {
   -webkit-justify-content: center;
   justify-content: center;
 }
+
 #subject-name {
   /* JAVASCRIPT */
   color: white;
@@ -82,29 +88,33 @@ body, html, #container {
   text-align: center;
   display: flex;
   flex-direction: column;
-  background: yellow
 }
 #question-header {
-  /* top questions */
+  /* top questions header */
   color: #4A4A4A;
   text-align: left;
-  margin-right: auto;
 }
+#top-questions {
+  /* list container */
+  width: 100%;
+  text-align: left;
+  margin: 0px auto;
+}
+
 #top-questions li {
   /* questions list items */
-  color: #4A4A4A;
-  padding-bottom: 10px;
-  text-align: left;
+  padding-bottom: 20px;
 }
 #top-questions ul {
   /* questions list */
-  column-count: 3;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 #top-questions a {
   /* question href */
   text-decoration: none;
-  color: #4A4A4A;
+  color: #696969
 }
 #bottom-middle {
   /* top tutors */
@@ -113,7 +123,6 @@ body, html, #container {
   text-align: center;
   display: flex;
   flex-direction: column;
-  background-color: orange;
 }
 #tutors-header {
   /* top tutors header */
@@ -121,16 +130,23 @@ body, html, #container {
   text-align: left;
   margin-right: auto;
 }
+
+#top-tutors {
+  /* list container */
+  width: 100%;
+  text-align: left;
+  margin: 0px auto;
+}
 #top-tutors ul {
   /*  top tutors list */
-  columns: 3;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
+
 #top-tutors li {
   /* top tutors list item */
-  color: #4A4A4A;
   padding-bottom: 10px;
-  text-align: left;
 }
 .flex-container {
   /* flex container for tutors */
@@ -141,11 +157,8 @@ body, html, #container {
 }
 .flex-container p {
   /* top tutor names */
-  width: 200px;
-  text-align: center;
+  margin-left: 10px;
 }
-
-
 .flex-item {
   /* points box */
   background-color: #8AE8A1;
@@ -176,14 +189,19 @@ body, html, #container {
   text-align: center;
   display: flex;
   flex-direction: column;
-  background-color: maroon;
-
 }
 #bottom h1 {
   /* top subjects header */
   color: #4A4A4A;
   text-align: left;
   margin-right: auto;
+}
+#subjects {
+  /*list container */
+  width: 100%;
+  text-align: left;
+  margin: 0px auto;
+  padding-bottom: 5%;
 }
 #subjects li {
   /* subjects list item */
@@ -198,71 +216,25 @@ body, html, #container {
 }
 #subjects ul {
   /* subjects list */
-  column-count: 3;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
 
-/* responsive stuff 
-@media only screen and (max-width: 800px) {
-    #question-header {
-      font-size: 8px;
-    }
-    #top-middle {
-        background-color: green;
-        font-size: 12px;
-        width: 100%;
+@media only screen and (max-width: 1200px) {
+    #top-tutors .columns {
+        column-width: 500px;
     }
 }
 
-@media only screen and (max-width: 800px) {
-    #tutors-header {
-      font-size: 8px;
-    }
-    #bottom-middle {
-        background-color: blue;
-        width: 100%;
-    }
-    .flex-container {
-      width: 60%;
-    }
-    .flex-container p {
-      font-size: 12px;
-      margin-left: 10px;
-    }
-    .flex-item {
-      width: 40%;
-    }
-    .flex-item h1 {
-      font-size: 8px;
-    }
-    .flex-item h2 {
-      font-size: 12px;
-    }
-}
-
-@media only screen and (max-width: 500px) { 
-    #top-middle {
-        background-color: seagreen;
-        font-size: 12px;
-    }
-}
+@media only screen and (max-width: 500px) {
+  #search-box input {
+    width: 300px;
+  }
 
 
-@media only screen and (max-width: 800px) { 
-    #subjects-header {
-      font-size: 8px;
-    }
-    #bottom {
-        background-color: lightblue;
-        width: 100%;
-    }
-    #subjects {
-      font-size: 12px;
-    }
-}
-<<<<<<< HEAD
->>>>>>> cff9c3cd839fa31321d09a2100575a57766c53e7
-=======
-*/
-
+@media only screen and (max-width: 320px) {
+  #search-box input {
+    width: 225px;
+  }
