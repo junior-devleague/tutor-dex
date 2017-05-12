@@ -13,17 +13,19 @@
 		<div>
 			<h3 class="question-header">QUESTIONS</h3>
 		</div>
-		<div class="question2">
-			<h2>
+		<div class="ques-and-asker-container">
+			<div class="question2">
+				<h2>
 				WHAT IS THE DIFFERENCE BETWEEN SIMILE AND METAPHOR?
-			</h2>
+				</h2>
+			</div>
+			<div>
+				<ul class="asker-info2">
+					<li>Dylan T.</li>
+					<li>Subject:English</li>
+					<li>1/2/2003</li>
+				</ul>
 		</div>
-		<div>
-			<ul class="asker-info2">
-				<li>Dylan T.</li>
-				<li>Subject:English</li>
-				<li>1/2/2003</li>
-			</ul>
 		</div>
 	</div>
 	<div class="answer-and-nav-container">
@@ -33,50 +35,58 @@
 		<div class="answer-container">
 			<div class="answer">
 				<div class="point-distribution">
-					<button class="points" id="1" onclick="plusOnePoint(this.id)">0</button>
-					<button class="points" id="2" onclick="plusOnePoint(this.id)"></button>
+					<button class= "point-holder" class="points" id="1" onclick="plusOnePoint(this.id)">0</button>
+					<button class="remove-points" class="points" id="2" onclick="plusOnePoint(this.id)">
+						REMOVE POINT
+					</button>
 				</div>
-				<div class="individual-answer">
-					<p>
-						A simile uses the words like or as. Metaphors don't. 
-					</p>
-					<p>
-						Check out this <a href="https://www.grammarly.com/blog/whats-the-difference-between-a-simile-and-a-metaphor/">resource</a>
-					</p>
-				</div>
-				<div>
-					<ul class="answerer-info">
-						<li class="name">
-							H. Languitan
-						</li>
-						<li class="date">
-							12/4/2002
-						</li>
-					</ul>
+				<div id="answer-asker-container">
+					<div class="individual-answer">
+						<p>
+							A simile uses the words like or as. Metaphors don't. 
+						</p>
+						<p>
+							Check out this <a href="https://www.grammarly.com/blog/whats-the-difference-between-a-simile-and-a-metaphor/">resource</a>
+						</p>
+					</div>
+					<div>
+						<ul class="answerer-info">
+							<li class="name">
+								H. Languitan
+							</li>
+							<li class="date">
+								12/4/2002
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<div class="answer">
-				<div>
-					<button class="points" id="3" onclick="plusOnePoint(this.id)">0</button>
-					<button class="points" id="4" onclick="plusOnePoint(this.id)"></button>
+				<div class="point-distribution">
+					<button class= "point-holder" class="points" id="1" onclick="plusOnePoint(this.id)">0</button>
+					<button class="remove-points" class="points" id="2" onclick="plusOnePoint(this.id)">
+						REMOVE POINT
+					</button>
 				</div>
-				<div class="individual-answer">
-					<p>
-						I don't know I'm a math teacher.
-					</p>
-					<p>
-						I don't have a resource either. 
-					</p>
-				</div>
-				<div>
-					<ul class="answerer-info">
-						<li class="name">
-							E. Ramos
-						</li>
-						<li class="date">
-							7/7/2007
-						</li>
-					</ul>
+				<div id="answer-asker-container">
+					<div class="individual-answer">
+						<p>
+							I don't know I'm a math teacher.
+						</p>
+						<p>
+							I don't have a resource either. 
+						</p>
+					</div>
+					<div>
+						<ul class="answerer-info">
+							<li class="name">
+								E. Ramos
+							</li>
+							<li class="date">
+								7/7/2007
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -87,7 +97,7 @@
 				SUBMIT ANSWERS
 			</button>
 		</div>
-		<div class="related-things">
+		<div class="related-things-container">
 			<h2>RELATED QUESTIONS</h2>
 			<ul class="related-questions">
 				<li>
