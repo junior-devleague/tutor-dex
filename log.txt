@@ -121,3 +121,107 @@ Tasks of today:
 Kyle and Corn: CSS for subject page
 Angela: fix merge conflicts | JS for question page
 Gwen: CSS for questions pages
+
+=====================================
+=====================================
+
+/// Log 9 (4/24/17) \\\
+Corn and Kyle are working on the "Top Tutors" section on the subject page. Gwen worked on CSS (question page)and changed some classes so elements could be aligned better. Angela worked on JS and was able to get adding and subtracting from one button to work.
+
+Tasks of today:
+| work on js for question page | work on css for question pages | work on CSS for subject page | fix merge conflicts |
+
+Kyle and Corn: CSS for subject page (complete Top Tutors and work on list of subjects)
+Angela: fix merge conflicts | JS for question page (change button color when points are negative)
+Gwen: CSS for questions pages 
+
+=====================================
+=====================================
+
+/// Log 10 (4/26/17) \\\
+Corn and Kyle are trying to figure out how to position the names in their divs for the subject page. Everyone doing CSS is going to change their positioning so that it utilizes flex box. Angela is going to work on JS to change button colors.
+
+Tasks of today:
+| work on js for question page | work on css for question pages | work on CSS for subject page |
+
+Kyle and Corn: CSS for subject page (complete Top Tutors and work on list of subjects)
+Angela: JS for question page (change button color when points are negative)
+Gwen: CSS for questions pages 
+
+=====================================
+=====================================
+
+/// Log 11 (4/28/17) \\\
+Corn and Kyle are working on the "Top Tutors" section on the subject page and making their page responsive. Everyone doing CSS is going to change their positioning so that it utilizes flex box. Angela is going to work on JS to change button colors.
+
+Tasks of today:
+| work on js for question page | work on css for question pages | work on CSS for subject page |
+
+Kyle and Corn: CSS for subject page (complete Top Tutors and work on list of subjects) | make page responsive
+Angela: JS for question page (change button color when points are negative)
+Gwen: CSS for questions pages (changing to flex box)
+
+=====================================
+=====================================
+
+/// Log 12 (5/1/17) \\\
+Corn and Kyle are working on making the subject page responsive. Gwen and Angela are out at STEM Conference.
+
+Tasks of today:
+| work on CSS for subject page |
+
+Kyle and Corn: CSS for subject page (make page responsive)
+Angela: absent
+Gwen: absent
+
+=====================================
+=====================================
+
+/// Log 13 (5/3/17) \\\
+Corn and Kyle are working on making the home page responsive. They were able to make the upper half responsive. Gwen is making the question pages flex-box friendly and responsive. Angela is going to work on home page JS to redirect user when a certain question is typed.
+
+Tasks of today:
+| work on CSS for home page | work on css for question pages | work on JS for home page | 
+
+Kyle and Corn: CSS for subject page (make page responsive)
+Angela: JS for home page (redirect on questions)
+Gwen: CSS for questions (flex box and responsive)
+
+=====================================
+=====================================
+
+/// Log 14 (5/5/17) \\\
+Corn and Kyle are finished making the home page responsive. They will now work on doing the same for the subject page. Gwen is making the question pages flex-box friendly and responsive. Angela is going to work on home page JS to redirect user when a certain question is typed.
+
+Tasks of today:
+| work on CSS for subject page | work on css for question pages | work on JS for home page | 
+
+Kyle and Corn: CSS for subject page (make page responsive)
+Angela: JS for home page (try to improve)
+Gwen: CSS for questions (flex box and responsive)
+
+=====================================
+=====================================
+
+/// Log 15 (5/8/17) \\\
+Corn and Kyle are continuing to work on making the subject page responsive. Gwen is making the question pages flex-box friendly and responsive. Angela is going to work on home page JS to redirect user when a certain question is typed, almost done.
+
+Tasks of today:
+| work on CSS for subject page | work on css for question pages | work on JS for home page | 
+
+Kyle and Corn: CSS for subject page (make page responsive)
+Angela: JS for home page (try to improve)
+Gwen: CSS for questions (flex box and responsive)
+
+=====================================
+=====================================
+
+/// Log 16 (5/10/17) \\\
+Corn and Kyle are continuing to work on making the subject page responsive. Gwen is making the question pages flex-box friendly and responsive. Angela is going to work on home page to link all the views.
+
+Tasks of today:
+| work on CSS for subject page | work on css for question pages | link all views to home | 
+
+Kyle and Corn: CSS for subject page (make page responsive)
+Angela: link all views to home 
+Gwen: CSS for questions (flex box and responsive)

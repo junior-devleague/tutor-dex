@@ -1,4 +1,5 @@
 body, html, #container {
+  height: 100%;
   font-family: 'Bitter', serif;
 }
 #navbar {
@@ -46,6 +47,7 @@ body, html, #container {
 }
 #search-box input {
   /*search box */
+  height: 35px;
   width: 450px;
   font-family: 'Bitter', serif;
 }
@@ -75,6 +77,7 @@ body, html, #container {
 }
 #top-middle {
   /* top half of the middle portion of the whole subject page, includes top questions  */
+  height: 25%;
   width: 80%;
   margin: auto;
   text-align: center;
@@ -91,6 +94,8 @@ body, html, #container {
 #top-questions li {
   /* questions list items */
   color: #4A4A4A;
+  width: 300px;
+  display: inline-block;
   padding-bottom: 10px;
   text-align: left;
 }
@@ -106,6 +111,7 @@ body, html, #container {
 }
 #bottom-middle {
   /* top tutors */
+  height: 35%;
   width: 80%;
   margin: auto;
   text-align: center;
@@ -123,6 +129,8 @@ body, html, #container {
   /*  top tutors list */
   columns: 3;
   list-style-type: none;
+  overflow: auto;
+  margin-right: auto;
 }
 #top-tutors li {
   /* top tutors list item */
@@ -136,6 +144,11 @@ body, html, #container {
   display: flex;
   background-color: #EDEDED;
   color: #838383;
+  width: 80%;
+  height: 60px;
+  background-color: #EDEDED;
+  color: #838383;
+  text-align: center;
 }
 .flex-container p {
   /* top tutor names */
@@ -150,6 +163,7 @@ body, html, #container {
   background-color: #8AE8A1;
   color: white;
   width: 40%;
+  height: 60px;
   margin-left: auto;
   border: 1px solid black;
   box-sizing: border-box;
@@ -168,8 +182,10 @@ body, html, #container {
   margin-top: -8px;
   text-align: center;
 }
+
 #bottom {
   /* top subjects */
+  height: 35%;
   width: 80%;
   margin: auto;
   text-align: center;
@@ -260,8 +276,5 @@ body, html, #container {
       font-size: 12px;
     }
 }
-<<<<<<< HEAD
->>>>>>> cff9c3cd839fa31321d09a2100575a57766c53e7
-=======
 */
 
