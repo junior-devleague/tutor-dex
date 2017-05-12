@@ -57,7 +57,7 @@ html,body {
 }
   .asker-info{
 	 display: flex;
-	 width: 278px;
+	 width: auto;
 	 padding-left:0px;
 	 padding-top: 40px;
    color:white; 
