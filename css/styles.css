@@ -53,7 +53,7 @@ html,body {
 
 .asker-info-container{
     display: flex;
-    align-self: f	lex-end;    
+    align-self: flex-end;    
 }
   .asker-info{
 	 display: flex;
