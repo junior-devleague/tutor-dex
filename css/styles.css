@@ -8,6 +8,9 @@ Logo: font-family: 'Exo', sans-serif;
 Headings: font-family: 'Raleway', sans-serif;
 Body: font-family: 'Bitter', serif;
 */ 
+
+/*QUESTION PAGE*/
+
 header{
   background-color: #4A4A4A;   
   color:#8AE8A1;
@@ -116,19 +119,21 @@ li{
   padding-right:10px;
 }
 
+.point-holder{
+  height: 60px;
+  width: 60px;
+  border-radius:100px;
+  border: transparent;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
 .remove-points{
   background-color: transparent;
   border: transparent;
   width: 55px;
   font-size: 10px;
   font-family: 'Raleway', sans-serif;
-}
-
-.point-holder{
-  height: 60px;
-  width: 60px;
-  border-radius:100px;
-  border: transparent;
 }
 
 #answer-asker-container{
@@ -232,3 +237,16 @@ input{
   color:white;
   font-family: 'Bitter', serif;
   }
+
+  /*RESPONSIVE*/
+
+  @media only screen and (max-width: 800px) {
+    .question-header {
+      font-size: 1px;
+    }
+    #top-middle {
+        background-color: green;
+        font-size: 12px;
+        width: 100%;
+    }
+}
