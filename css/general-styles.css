@@ -1,0 +1,11 @@
+/*Add all general styles to this file. General styles means anything common on every page.
+  Such as:
+  Headers, Footers, Hero(top large call out) Areas, buttons, flexbox containers, link styles, etc.
+  If there are ids that use the same properties list them like so: #ask, #container {}
+  If there are common classes put them here
+*/
+
+/* Header: remove z-index */
+/* Remove all position and top, left, bottom, right properties. Properly used but not necessary. Use flexbox */
+/* Remove all float properties and use flexbox. */
+/* Don't set height unless you're specifying a fixed height. Keeps the content from overflowing. */
