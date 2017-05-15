@@ -25,7 +25,7 @@ body, html, #container {
   bottom: 0;
 }
 #top { /* top half of the page, includes navbar, input, select, and top button */
-  height:40%;
+  padding-bottom: 50px;
   width:100%;
   background-color: #4A4A4A;
   margin:auto;
@@ -39,7 +39,6 @@ body, html, #container {
 }
 
 #bottom { /* bottom half of the page, includes searching, and top subjects */
-  height:60%;
   width:100%;
   background-color: white;
   margin:auto;
@@ -79,7 +78,6 @@ body, html, #container {
 .item h3 { /* TOP SUBJECTS */
   color: #838383;
   margin-top: 20%;
-  text-align: center;
   font-family: 'Raleway', sans-serif;
   text-align: left;
 }
@@ -166,3 +164,57 @@ body, html, #container {
   font-size: 20px;
   cursor:pointer;
 }
+
+/* responsive stuff */
+
+@media only screen and (max-width: 800px) {
+  .item ul {
+    column-count: 2;
+  }
+  .item li {
+    column-width: 100px;
+  }
+  #top .item button {
+    padding: 10px 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .item ul {
+    column-count: 1;
+  }
+  .item li {
+    column-width: 100px;
+  }
+  .item h3 {
+    text-align: left;
+  }
+  .item input {
+    width: 350px;
+  }
+  .item select {
+    width: 354px;
+  }
+    #top .item button {
+    padding: 10px 100px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .item li {
+    column-width: 100px;
+  }
+  .item h3 {
+    text-align: left;
+  }
+  .item input {
+    width: 250px;
+  }
+  .item select {
+    width: 254px;
+  }
+    #top .item button {
+    padding: 10px 100px;
+  }
+}
+
