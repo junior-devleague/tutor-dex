@@ -80,7 +80,8 @@ body, html, #container {
 }
 
 .item h3 { /* TOP SUBJECTS */
-  color: #838383;
+/*  color: #838383;*/
+  color: red;
   margin-top: 20%;
   font-family: 'Raleway', sans-serif;
   text-align: left;
