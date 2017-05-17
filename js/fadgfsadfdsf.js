@@ -63,14 +63,6 @@ function redirect(){
 /**********************************QUESTION JS********************************************/
 /*****************************************************************************************/
 
-function redirectToSubject(){
-  window.location = "html/subject.html";
-}
-
-/*
-***********************************QUESTION JS*********************************************
-*/
-
 var num = 0;
 var numTwo = 0;
 var disliked = [];
@@ -127,7 +119,8 @@ function plusOnePoint(id){
   var pointReader = document.getElementById(id);
   console.log(id);
   console.log(num);
-  
+  num = num + 1;
+  pointReader.innerHTML = "+" + num;
   //checks if button id is odd or even (odd = add point | even = subtract point)
   if (id%2 == 1){
   //button id is POSITIVE
