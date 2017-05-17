@@ -1,3 +1,7 @@
+.highlight li{
+  color: red;
+}
+
 body, html, #container {
   height: 100%;
   font-family: 'Bitter', serif;
@@ -78,7 +82,8 @@ body, html, #container {
 }
 
 .item h3 { /* TOP SUBJECTS */
-  color: #838383;
+/*  color: #838383;*/
+  color: red;
   margin-top: 20%;
   font-family: 'Raleway', sans-serif;
   text-align: left;
@@ -125,6 +130,7 @@ body, html, #container {
   margin-left: 40px;
 }
 
+
 #subjects-header {
   color: #838383;
   font-family: 'Raleway', sans-serif;
@@ -137,6 +143,7 @@ body, html, #container {
 
 #subjects li { /* list item values for top subject */
   color: #696969;
+
   padding: 10px;
   text-align: left;
   width: 200px;
@@ -144,6 +151,7 @@ body, html, #container {
 
 #subjects a { /*href for top subjects */
   text-decoration: none;
+  color: #696969;
 }
 
 #subjects ul { /* ul for top subject, set to 3 columns */ 
