@@ -199,3 +199,55 @@ Tasks of today:
 Kyle and Corn: CSS for subject page (make page responsive)
 Angela: JS for home page (try to improve)
 Gwen: CSS for questions (flex box and responsive)
+
+=====================================
+=====================================
+
+/// Log 15 (5/8/17) \\\
+Corn and Kyle are continuing to work on making the subject page responsive. Gwen is making the question pages flex-box friendly and responsive. Angela is going to work on home page JS to redirect user when a certain question is typed, almost done.
+
+Tasks of today:
+| work on CSS for subject page | work on css for question pages | work on JS for home page | 
+
+Kyle and Corn: CSS for subject page (make page responsive)
+Angela: JS for home page (try to improve)
+Gwen: CSS for questions (flex box and responsive)
+
+=====================================
+=====================================
+
+/// Log 16 (5/10/17) \\\
+Corn and Kyle are continuing to work on making the subject page responsive. Gwen is making the question pages flex-box friendly and responsive. Angela is going to work on home page to link all the views.
+
+Tasks of today:
+| work on CSS for subject page | work on css for question pages | link all views to home | 
+
+Kyle and Corn: CSS for subject page (make page responsive)
+Angela: link all views to home 
+Gwen: CSS for questions (flex box and responsive)
+
+=====================================
+=====================================
+
+/// Log 17 (5/12/17) \\\
+Corn and Kyle are continuing to work on making the subject page responsive. Gwen is making the question pages flex-box friendly and responsive. She was able to make one of the question pages responsive, now she has to fix some alignment. Angela is going to work on home page to link all the views.
+
+Tasks of today:
+| work on CSS for subject page | work on css for question pages | link all views to home | 
+
+Kyle and Corn: CSS for subject page (make page responsive)
+Angela: link all views to home | solve merge conflicts
+Gwen: CSS for questions (flex box and responsive)
+
+=====================================
+=====================================
+
+/// Log 18 (5/15/17) \\\
+Corn and Kyle are finsihing up making the subject page responsive. Gwen is making the question pages flex-box friendly and responsive. She has to fix classes. Angela is going to work on home page to link all the views.
+
+Tasks of today:
+| work on CSS for subject page | work on css for question pages | link all views to home | solve merge conflicts |
+
+Kyle and Corn: CSS for subject page (make page responsive)
+Angela: link all views to home | solve merge conflicts
+Gwen: CSS for questions (flex box and responsive)
