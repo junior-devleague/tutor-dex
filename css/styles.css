@@ -122,6 +122,7 @@ li{
 .point-holder{
   height: 60px;
   width: 60px;
+  color: white;
   border-radius:100px;
   border: transparent;
   font-size: 30px;
@@ -241,13 +242,18 @@ input{
   /*RESPONSIVE*/
 
   @media only screen and (max-width: 800px) {
-    .question-header {
-      font-size: 1px;
+    header{
+      font-size: 20px;
     }
-    #top-middle {
-        background-color: green;
-        font-size: 12px;
-        width: 100%;
+    .ques-and-title-container{
+        height: 100px;
+    }
+    .question{
+      padding-left: 2px;
+      font-size: 15px;
+      padding-right: 20px;
+    }
+    .question-header{
+      font-size: 7px;
     }
 }
-
