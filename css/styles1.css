@@ -234,19 +234,7 @@ body, html, #container {
     width: 300px;
   }
 
-@media only screen and (max-width: 800px) { 
-    #subjects-header {
-      font-size: 8px;
-    }
-    #bottom {
-        background-color: lightblue;
-        width: 100%;
-    }
-    #subjects {
-      font-size: 12px;
-    }
-}
-*/
+
 
 @media only screen and (max-width: 320px) {
   #search-box input {
