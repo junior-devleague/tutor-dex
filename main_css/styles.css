@@ -28,6 +28,10 @@ body, html, #container {
   left: 0;
   bottom: 0;
 }
+
+.columns {
+  column-width: 300px;
+}
 #top { /* top half of the page, includes navbar, input, select, and top button */
   padding-bottom: 50px;
   width:100%;
@@ -43,11 +47,9 @@ body, html, #container {
 }
 
 #bottom { /* bottom half of the page, includes searching, and top subjects */
-  width:100%;
-  background-color: white;
-  margin:auto;
-  text-align:center;
-  color:#FFFFFF;
+  width: 80%;
+  margin: auto;
+  text-align: left;
   display: flex;
   flex-direction: column;
 }
@@ -124,20 +126,37 @@ body, html, #container {
   color: #C7C7CD;
 }
 
-
-.item li { /* list item values for top subject */
-  padding: 10px;
-  width: 200px;
-  text-align: left;
+#top-subjects {
+  margin-left: 40px;
 }
 
-.item a { /*href for top subjects */
+
+#subjects-header {
+  color: #838383;
+  font-family: 'Raleway', sans-serif;
+}
+
+#subjects {/*list container */
+  width: 100%;
+  margin: 0px auto;
+}
+
+#subjects li { /* list item values for top subject */
+  color: #696969;
+
+  padding: 10px;
+  text-align: left;
+  width: 200px;
+}
+
+#subjects a { /*href for top subjects */
   text-decoration: none;
   color: #696969;
 }
 
-.item ul { /* ul for top subject, set to 3 columns */ 
-  column-count: 3;
+#subjects ul { /* ul for top subject, set to 3 columns */ 
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
