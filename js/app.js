@@ -118,51 +118,58 @@ function greyStart(){
 }
 greyStart();
 
-
 /****************************POINT ADDITION**********************************/
+//make function to render/display so it displays onload
+
 function plusOnePoint(id){
   var pointReader = document.getElementById(id);
-  console.log(id);
-  console.log(num);
-  
-  localStorage.setItem("num", num);
-  // localStorage.getItem("num");
+  console.log("ID: ", id);
+  console.log("Num: ", num);
+
 
   //checks if button id is odd or even (odd = add point | even = subtract point)
   if (id%2 == 1){
   //button id is POSITIVE
     num = num + 1;
+    localStorage.setItem("number", num);
+    var getNum = localStorage.getItem("number");
+    console.log("get item: ", localStorage.getItem("number"));
     if (num > 0){
     //adds points
-      pointReader.innerHTML = "+" + num;
+      pointReader.innerHTML = "+" + getNum;
       pointReader.style.backgroundColor = "#8AE8A1";
     } else if (num == 0){
       //change button color to gray
       pointReader.style.backgroundColor = "#E6E7F0";
-      pointReader.innerHTML = "" + num;
+      pointReader.innerHTML = getNum;
     } else{
-      pointReader.innerHTML = "" + num;
+      pointReader.innerHTML = getNum;
       pointReader.style.backgroundColor = "#C23B22";
     }
   } else{
     //button id is NEGATIVE
     //pointReader now targets previous button (w/ points)
     pointReader = document.getElementById(id - 1);
-    console.log(id);
-    //subtracts points
+    //subtract point
     num = num - 1;
+
+    localStorage.setItem("number", num);
+    var getNum = localStorage.getItem("number");
     if (num > 0){
-      pointReader.innerHTML = "+" + num;
+      pointReader.innerHTML = "+" + getNum;
     } else if (num == 0){
       //change button color to gray
       pointReader.style.backgroundColor = "#E6E7F0";
-      pointReader.innerHTML = "" + num;
+      pointReader.innerHTML = getNum;
     } else{
       //change button color to red
       pointReader.style.backgroundColor = "#C23B22";
-      pointReader.innerHTML = "" + num;
+      pointReader.innerHTML = getNum;
     }
   }
+  //loads points
+  // loadPoints();
+  // location.reload();
 }
     
 function plusSecondPoint(id){
@@ -204,6 +211,20 @@ function plusSecondPoint(id){
     }
   }
 }
+
+/**************************LOAD POINTS********************************/
+/*function loadPoints(){
+  if (localStorage.length > 0){
+    var idQuantity = document.getElementsByClassName("points");
+    for (var i = 0; i < idQuantity.length; i++){
+      var targetLike = document.getElementById(i)
+      if (i%2 == 1){
+        targetLike.innerHTML = localStorage.getItem("number");
+      } 
+    }
+  }
+}*/
+
 
 /****************************SORTING**********************************/
 /* taken from https://www.w3schools.com/howto/howto_js_sort_list.asp */
