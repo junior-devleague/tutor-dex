@@ -1,3 +1,7 @@
+.highlight li{
+  color: red;
+}
+
 body, html, #container {
   height: 100%;
   font-family: 'Bitter', serif;
@@ -121,7 +125,6 @@ body, html, #container {
 
 
 .item li { /* list item values for top subject */
-  color: #696969;
   padding: 10px;
   width: 200px;
   text-align: left;
@@ -129,6 +132,7 @@ body, html, #container {
 
 .item a { /*href for top subjects */
   text-decoration: none;
+  color: #696969;
 }
 
 .item ul { /* ul for top subject, set to 3 columns */ 
