@@ -243,16 +243,54 @@ input{
   @media only screen and (max-width: 800px) {
     header{
       font-size: 20px;
+      height: 5px;
+      padding-top: 8px;
     }
     .ques-and-title-container{
         height: 100px;
     }
     .question{
       padding-left: 2px;
-      font-size: 15px;
+      font-size: 13.5px;
       padding-right: 20px;
+      padding-top: 9px;
     }
     .question-header{
       font-size: 7px;
+    }
+    .asker-info{
+      display: flex;
+      width: 278px;
+      padding-top: 0px;
+      padding-bottom: 20px;
+      color:white; 
+      font-size: 10px;
+    }
+    .answer-header{
+      margin-top: -5%;
+      padding-left: 725px;
+      font-size: 7px;
+      font-family: 'Raleway', sans-serif;
+    }
+    .answer-asker-container{
+      height: 40px;
+    }
+    .individual-answer{
+      font-size: 15px;
+      height: 
+    }
+    .answerer-info{
+      font-size: 10px;
+    }
+    .point-holder{
+      width: 30px;
+      height: 30px;
+      font-size: 20px;
+    }
+    .remove-points{
+      font-size: 6px;
+    }
+    .point-distribution{
+      height: 70px;
     }
 }
