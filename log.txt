@@ -251,3 +251,16 @@ Tasks of today:
 Kyle and Corn: CSS for subject page (make page responsive)
 Angela: link all views to home | solve merge conflicts
 Gwen: CSS for questions (flex box and responsive)
+
+=====================================
+=====================================
+
+/// Log 19 (5/17/17) \\\
+Corn and Kyle are finsihing up making the subject page responsive. Gwen is making the question pages flex-box friendly and responsive. Angela is going to work on stretch goals (adding answers || storing points in local storage).
+
+Tasks of today:
+| work on CSS for subject page | work on css for question pages | adding answers OR storing points in local storage |
+
+Kyle and Corn: CSS for subject page (make page responsive)
+Angela: JS adding answers || storing points in local storage
+Gwen: CSS for questions (flex box and responsive)
