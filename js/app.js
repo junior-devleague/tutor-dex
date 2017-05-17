@@ -101,6 +101,9 @@ idea 1:
   i.e. function that is invoked on click of button, checks if input has question, if true then redirect
 */
 
+/****************************ONLOAD**********************************/
+//make a function to load points in local storage
+
 //makes button grey when value is 0 or empty
 function greyStart(){
   var idQuantity = document.getElementsByClassName("points");
