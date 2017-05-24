@@ -142,8 +142,7 @@ body, html, #container {
 }
 
 #subjects li { /* list item values for top subject */
-  color: #696969;
-
+  /*color: #696969;*/
   padding: 10px;
   text-align: left;
   width: 200px;
