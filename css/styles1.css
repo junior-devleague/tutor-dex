@@ -1,4 +1,5 @@
 .highlight {
+
   color: red !important; 
 }
 
@@ -119,6 +120,9 @@ body, html, #container {
   /* question href */
   text-decoration: none;
   color: #696969
+}
+#top-questions .highlight a{
+  color: red;
 }
 #bottom-middle {
   /* top tutors */
