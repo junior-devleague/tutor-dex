@@ -1,3 +1,20 @@
+/**********************************************************************/
+/******************CSS for nav bars***********************************/ 
+#navbar {
+  /*top bar, says TutorDex on the left */
+  overflow: hidden;
+  background-color: #333;
+}
+#navbar a {
+  /*TutorDex (navbar) */
+  float: left;
+  font-size: 20px;
+  color: #8AE8A1;
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'Exo', sans-serif;
+}
+
 /*COLORS
  Dark Gray: #4A4A4A
  Light Gray: #EDEDED
@@ -7,7 +24,12 @@
 Logo: font-family: 'Exo', sans-serif;
 Headings: font-family: 'Raleway', sans-serif;
 Body: font-family: 'Bitter', serif;
-*/ 
+<<<<<<< HEAD
+*/
+
+/**********************************************************************/
+/******************Ouestion page CSS***********************************/ 
+ 
 
 /*QUESTION PAGE*/
 
