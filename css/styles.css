@@ -24,207 +24,224 @@
 Logo: font-family: 'Exo', sans-serif;
 Headings: font-family: 'Raleway', sans-serif;
 Body: font-family: 'Bitter', serif;
+<<<<<<< HEAD
 */
 
 /**********************************************************************/
 /******************Ouestion page CSS***********************************/ 
+ 
+
+/*QUESTION PAGE*/
+
 header{
-   background-color: #4A4A4A;   
-   color:#8AE8A1;
-   font-size: 50px;
-   font-family: 'Exo', sans-serif;
-   padding: 20px 20px; 
+  background-color: #4A4A4A;   
+  color:#8AE8A1;
+  font-size: 50px;
+  font-family: 'Exo', sans-serif;
+  padding: 20px 20px; 
   }
 
 html,body {
-   padding:0;
-   margin:0;
-   height:100%;
-	 width: 100%;
+  padding:0;
+  margin:0;
+  height:100%;
+  width: 100%;
 }
 
 .ques-and-title-container{
-    display: flex;
-    justify-content: space-around;
-    height: 210px;
-    background-color: #4A4A4A;
+  display: flex;
+  justify-content: space-around;
+  height: 210px;
+  background-color: #4A4A4A;
 }
+
 .ques-and-asker-container{
-	width: 700px;
-	justify-content: center;
-	flex-direction: column;
+  width: 700px;
+  justify-content: center;
+  flex-direction: column;
 }
- .question-header{
-    background-color:transparent;
-    color: white;
-    padding:0px 0px 130px 95px;
-    font-size: 15px;
-    font-family: 'Raleway', sans-serif;
+
+.question-header{
+  background-color:transparent;
+  color: white;
+  padding:0px 0px 130px 95px;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  color: #8AE8A1;
   }
 
-  .question{
-   display: flex;
-   align-self: center;
-	 padding-left: 2px;
-   font-size: 25px;
-   color: white;
-   font-family: 'Raleway', sans-serif;
+.question{
+  display: flex;
+  align-self: center;
+  font-size: 25px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding-right: 00px;
 }
 
 .asker-info-container{
-    display: flex;
-    align-self: flex-end;    
-}
-  .asker-info{
-	 display: flex;
-	 width: 278px;
-	 padding-left:0px;
-	 padding-top: 40px;
-   color:white; 
-}
-.asker-info li{
-    padding: 10px;
-}
-li{
-    list-style: none;
-    font-family: 'Bitter', serif;
-}
-  .answer-header{
-		margin-top: -10%;
-    padding-left: 130px;
-    font-size: 15px;
-    font-family: 'Raleway', sans-serif;
+  display: flex;
+  align-self: flex-end;   
 }
 
-  .answer-and-nav-container{
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
-    background-color:transparent;
-    height: 100%;
+.asker-info{
+  display: flex;
+  width: 278px;
+  padding-left:0px;
+  padding-top: 40px;
+  color:white; 
 }
+
+.asker-info li{
+  padding: 10px;
+}
+
+li{
+  list-style: none;
+  font-family: 'Bitter', serif;
+}
+
+.answer-header{
+  margin-top: -10%;
+  padding-left: 130px;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.answer-and-nav-container{
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  background-color:transparent;
+  height: 75%;
+}
+
 .answer-container{
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    height: 300px;
-    width:70px;
-    padding-top: 90px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 300px;
+  width:70px;
+  padding-top: 90px;
 }
 .answer{
-    display: flex;
-    align-content: space-around;
-    width: 650px;
-    height: 239.5px;
+  display: flex;
+  align-content: space-around;
+  width: 650px;
+  height: 239.5px;
 }
 
 .point-distribution{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    width: 60px;
-		height: 180px;
-		padding-right:10px;
-}
-
-.remove-points{
-    background-color: transparent;
-    border: transparent;
-    width: 55px;
-    font-size: 10px;
-	  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 60px;
+  height: 180px;
+  padding-right:10px;
 }
 
 .point-holder{
-    height: 60px;
-    width: 60px;
-    border-radius:100px;
-    border: transparent;
+  height: 60px;
+  width: 60px;
+  color: white;
+  border-radius:100px;
+  border: transparent;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
 }
 
-   #answer-asker-container{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   padding-left: 15px;
-   height: 200px;
-   width: 600px;
-   background-color:#EDEDED;
-   font-size:18px;
-   font-family: 'Bitter', serif;
+.remove-points{
+  background-color: transparent;
+  border: transparent;
+  width: 55px;
+  font-size: 10px;
+  font-family: 'Raleway', sans-serif;
 }
 
-  .answerer-info{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    padding-left: 0px;
+#answer-asker-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+  height: 200px;
+  width: 600px;
+  background-color:#EDEDED;
+  font-size:18px;
+  font-family: 'Bitter', serif;
+}
+
+.answerer-info{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-left: 0px;
 }
 
 .answerer-info li{
-    padding-right:10px;
+  padding-right:10px;
 }
 
 .related-things{
-    display: flex;
-    flex-direction: column;
-    align-self:baseline;
-    background-color:#4A4A4A;
-    width:250px;
-    height: 385px;
-    padding: 5px ;
-    color:white; 
+  display: flex;
+  flex-direction: column;
+  align-self:baseline;
+  background-color:#4A4A4A;
+  width:250px;
+  height: 385px;
+  padding: 5px ;
+  color:white; 
 }
-  .related-things h2{
-     text-align: center;
-     font-size:16px;
-     font-family: 'Raleway', sans-serif;
+.related-things h2{
+  text-align: center;
+  font-size:16px;
+  font-family: 'Raleway', sans-serif;
   }
   
 .related-questions li, .related-topics li{
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-	 font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  font-size: 14px;
 }
 
- .submission-section{
-    display: flex;
-	 	justify-content: center;
-    align-self: flex-end;
-    flex-direction: column;
-    border-color: transparent;
-    height: 140px;
-    width: 604px;
+.submission-section{
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  flex-direction: column;
+  border-color: transparent;
+  height: 180px;
+  width: 600px;
+  padding-right: 0%;
 }
 
 
 input{
-    height: 150px;
-    width: 580px;
+  height: 150px;
+  width: 580px;
 }
 
 .submit-button{
-    display: flex;
-    align-self: flex-end;
-    background-color:#8AE8A1;
-    border: transparent;
-    color: white;
-    height: 40px;
-    padding: 10px 10px;
-    border-radius: 7px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+  display: flex;
+  align-self: flex-end;
+  background-color:#8AE8A1;
+  border: transparent;
+  color: white;
+  height: 40px;
+  padding: 10px 20px;
+  border-radius: 7px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
 }
+
 .submit-button-container{
-	display: flex;
-	justify-content: flex-end;
-	padding-left: ;
-	height: 90px;
-	width: 584px;
+  display: flex;
+  justify-content: flex-end;
+  height: 90px;
+  width: 584px;
 }
 .name, p a{
-    color: #8AE8A1;
+  color: #8AE8A1;
 }
 
 .related-questions li a:hover { 
@@ -235,10 +252,67 @@ input{
 }
 
 .asker-info, .answerer-info{
-    font-family: 'Bitter', serif;
+  font-family: 'Bitter', serif;
  }
  
 .related-questions a , .related-topics a{
-    color:white;
-    font-family: 'Bitter', serif;
+  color:white;
+  font-family: 'Bitter', serif;
   }
+
+  /*RESPONSIVE*/
+
+  @media only screen and (max-width: 800px) {
+    header{
+      font-size: 20px;
+      height: 5px;
+      padding-top: 8px;
+    }
+    .ques-and-title-container{
+        height: 100px;
+    }
+    .question{
+      padding-left: 2px;
+      font-size: 13.5px;
+      padding-right: 20px;
+      padding-top: 9px;
+    }
+    .question-header{
+      font-size: 7px;
+    }
+    .asker-info{
+      display: flex;
+      width: 278px;
+      padding-top: 0px;
+      padding-bottom: 20px;
+      color:white; 
+      font-size: 10px;
+    }
+    .answer-header{
+      margin-top: -5%;
+      padding-left: 725px;
+      font-size: 7px;
+      font-family: 'Raleway', sans-serif;
+    }
+    .answer-asker-container{
+      height: 40px;
+    }
+    .individual-answer{
+      font-size: 15px;
+      height: 
+    }
+    .answerer-info{
+      font-size: 10px;
+    }
+    .point-holder{
+      width: 30px;
+      height: 30px;
+      font-size: 20px;
+    }
+    .remove-points{
+      font-size: 6px;
+    }
+    .point-distribution{
+      height: 70px;
+    }
+}

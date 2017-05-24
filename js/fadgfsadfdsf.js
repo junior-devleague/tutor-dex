@@ -63,11 +63,6 @@ function redirect(){
 /**********************************QUESTION JS********************************************/
 /*****************************************************************************************/
 
-function redirectToSubject(){
-  window.location = "html/subject.html";
-}
-
-/***********************************QUESTION JS*********************************************/
 var num = 0;
 var numTwo = 0;
 var disliked = [];
@@ -124,10 +119,8 @@ function plusOnePoint(id){
   var pointReader = document.getElementById(id);
   console.log(id);
   console.log(num);
-  
-  localStorage.setItem("num", num);
-  // localStorage.getItem("num");
-
+  num = num + 1;
+  pointReader.innerHTML = "+" + num;
   //checks if button id is odd or even (odd = add point | even = subtract point)
   if (id%2 == 1){
   //button id is POSITIVE
@@ -207,13 +200,13 @@ function plusSecondPoint(id){
 
 /****************************SORTING**********************************/
 /* taken from https://www.w3schools.com/howto/howto_js_sort_list.asp */
-/*
+
 function sortList() {
   var list, i, switching, b, shouldSwitch;
   list = document.getElementById("list");
   switching = true;
   /*Make a loop that will continue until
-  no switching has been done:
+  no switching has been done:*/
   while (switching) {
     //start by saying: no switching is done:
     switching = false;
@@ -223,22 +216,22 @@ function sortList() {
       //start by saying there should be no switching:
       shouldSwitch = false;
       /*check if the next item should
-      switch place with the current item:
+      switch place with the current item:*/
       if (b[i].innerHTML.toLowerCase() > b[i + 1].innerHTML.toLowerCase()) {
         /*if next item is alphabetically
         lower than current item, mark as a switch
-        and break the loop:
+        and break the loop:*/
         shouldSwitch= true;
         break;
       }
     }
     if (shouldSwitch) {
       /*If a switch has been marked, make the switch
-      and mark the switch as done:
+      and mark the switch as done:*/
       b[i].parentNode.insertBefore(b[i + 1], b[i]);
       switching = true;
     }
   }
 }
 
-window.onload = sortList;*/
+window.onload = sortList;
